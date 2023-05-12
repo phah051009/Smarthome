@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webshop</title>
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="stylesheet" href="./../css/webbshop.css">
+    <link rel="stylesheet" href="./../css/settings.css">
+
+    <script src="./../Main.js"></script>
+    <script src="./../webbshop.js"></script>
+
+
+</head>
+
+<body>
+    <nav>
+        <ul class="navbar-länkar">
+            <li><a href="./../meny/index.eng.html">Start</a></li>
+            <li><a href="./../meny/om.eng.html">About</a></li>
+            <li><a href="./../meny/blogg.eng.html">Blog</a></li>
+            <li><a href="./../webbshop/webbshop.eng.html">Webshop</a></li>
+            <li><a href="./../meny/kontakt.eng.html">Contact</a></li>
+            <li><a href="./../meny/login.eng.html">Sign in</a></li>
+            <li><a href="./../meny/inställningar.eng.html">Settings</a></li>
+        </ul>
+    </nav>
+
+
+    <h1 class="starttext">Welcome to smarthome webshop</h1>
+    <div>
+        <div class="dropdown-menu">
+
+            <button class="menu-btn"><img src="./../webbshop/meny.png" alt=""></button>
+            <div class="menu-content">
+                <a class="links" href="./../webbshop/webbshopkategorier/webbshop.popular.eng.html">Popularly</a>
+                <a class="links" href="./../webbshop/webbshopkategorier/webbshop.light.eng.html">Lighting</a>
+                <a class="links" href="./../webbshop/webbshopkategorier/webbshop.speaker.eng.html">Speaker</a>
+                <a class="links" href="./../webbshop/webbshopkategorier/webbshop.security.eng.html">Security</a>
+                <a class="links" href="./../webbshop/webbshopkategorier/webbshop.outlet.eng.html">Sale</a>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <img src="./../bilder/user.jpg" alt="" id="symbol" class="hidden">
+
+    <div class="webbshopcontainer">
+
+        <div class="products">
+
+            <div class="produkt">
+                <img src="./../webbshop/webshop.philipshue.jpg" alt="Picture on philips hue startkit"
+                    onclick="Getinfobox()">
+                <h3 onclick="Getinfobox()">Philips hue starterkit</h3>
+                <p>89 $</p>
+                <form action="../../webbshop/adress.eng.html">
+                    <button>Buy now</button>
+                </form>
+            </div>
+
+            <div id="overlayphilipshue">
+                <div id="information">
+                    <h3>Philips hue Starterkit</h3>
+                    <img src="./../webbshop/webshop.philipshue.jpg" alt="Picture on philips hue startkit"
+                        class="webbpopup">
+                    <div class="webbpopuptext">
+                        <p>Philips HUE is a smart lighting system that allows you to control your lights and lighting at
+                            home
+                            from your mobile, wherever you are. This starter kit with two Philips LED lamps
+                            The Hue series and a Hue bridge are a good start to smart home lighting. With Philips Hue
+                            you can
+                            control how you want your light in the home.
+                        </p>
+                    </div>
+                    <button id="closebutton" onclick="closebutton()">Close</button>
+                </div>
+            </div>
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.philipshueplay.jpg" alt="Picture on philipshue light philipshueplay"
+                    onclick="philipshueplay()">
+                <h3 onclick="philipshueplay()">Philips hue play</h3>
+                <p>149 $</p>
+                <form action="../../webbshop/adress.eng.html">
+                    <button>Buy now</button>
+                </form>
+            </div>
+
+            <div id="overlayphilipshueplay">
+                <div id="informationphilipshueplay">
+                    <h3>Philips hue Play</h3>
+                    <img src="./../webbshop/webbshop.philipshueplay.jpg" alt="Picture on philips hue play"
+                        class="webbpopup">
+                    <div class="webbpopuptext">
+                        <p>Create an atmosphere with many colors and shades with the help of a 2-pack of Philips HUE
+                            Play light strips.
+                            Place your light bars behind your TV and get a cool ambilight or place the lighting on
+                            other places to create cool effects in your home. With the Philips Hue bridge and it
+                            the downloadable free app you control your lighting. Via the app you can experiment and mix
+                            else choose between 16 million different colors and switch the lighting on or off.
+                        </p>
+
+                    </div>
+                    <button id="closebutton" onclick="closebuttonphilipshueplay()">Close</button>
+                </div>
+            </div>
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.philipshueoutdoor.jpg"
+                    alt="Picture on philips hue outdoor" onclick="philipshueoutdoor()">
+                <h3 onclick="philipshueoutdoor()">Philips hue outdoor</h3>
+                <p>55 $</p>
+                <form action="../../webbshop/adress.eng.html">
+                    <button>Buy now</button>
+                </form>
+            </div>
+
+            <div id="overlayphilipshueoutdoor">
+                <div id="informationphilipshueoutdoor">
+                    <h3>Philips hue outdoor</h3>
+                    <img src="./../webbshop/webbshop.philipshueoutdoor.jpg"
+                        alt="Picture on philips hue outdoor" class="webbpopup">
+                    <div class="webbpopuptext">
+                        <p>The Philips Hue Outdoor Sensor is a motion sensor for outdoor use that you connect to your
+                            Philips Hue system. The sensor is IP54 rated, which means that it can withstand all
+                            weather conditions.
+                            Connect the sensor to your Philips Hue bridge and you can let the sensor control your outdoor lights
+                            automatically.
+                        </p>
+                    </div>
+                    <button id="closebutton" onclick="closebuttonphilipshueoutdoor()">Close</button>
+                </div>
+            </div>
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.philipshueljusslinga.jpg" alt="Bild på philips ljusslinga."
+                    onclick="philipshueljusslinga()">
+                <h3 onclick="philipshueljusslinga()">Philips hue lightstrip</h3>
+                <p>149 $</p>
+                <form action="../../webbshop/adress.eng.html">
+                    <button>Buy now</button>
+                </form>
+            </div>
+
+            <div id="overlayphilipshueljusslinga">
+                <div id="informationphilipshueljusslinga">
+                    <h3>Philips hue lightstrip</h3>
+                    <img src="./../webbshop/webbshop.philipshueljusslinga.jpg" alt="picture on philips hue lightstrip"
+                        class="webbpopup">
+                    <div class="webbpopuptext">
+                        <p>Philips Hue Lightstrip Outdoor is a flexible light strip for outdoor use, which can be bent and
+                            shaped according to your own wishes. Lightstrip Outdoor has a length of 2 meters and can be attached to
+                            pretty much anywhere, along the aisle, the wall, the balcony railing or wherever you want. With
+                            16 million colors and dimmer function is the ultimate to light up your garden when it
+                            starting to get dark.
+                        </p>
+
+                    </div>
+                    <button id="closebutton" onclick="closebuttonphilipshueljusslinga()">Close</button>
+                </div>
+            </div>
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.philipshuetaklampa.jpg" alt="Picture on philips hue ceiling lamp"
+                    onclick="philipshuetaklampa()">
+                <h3 onclick="philipshuetaklampa()">Philips hue ceiling lamp</h3>
+                <p>229 $</p>
+                <form action="./../webbshop/adress.eng.html">
+                    <button>Buy now</button>
+                </form>
+            </div>
+
+            <div id="overlayphilipshuetaklampa">
+                <div id="informationphilipshuetaklampa">
+                    <h3>Philips hue ceiling lamp</h3>
+                    <img src="./../webbshop/webbshop.philipshuetaklampa.jpg" alt="Picture on philips hue ceiling lamp"
+                        class="webbpopup">
+                    <div class="webbpopuptext">
+                        <p>With the Infuse ceiling lamp from Philips Hue, you can light up larger rooms and spaces. It fits
+                            perfect in, for example, the living room, but also in the dining room, or why not in the basement? Infuse
+                            provides a discreet glow towards the ceiling and a powerful lighting downwards that fills the room with a soft
+                            light in all shades of white or colored light. Philips Hue recommends purchasing for Hue
+                            Bridge to your smart lighting so you can experience the full range of Philips
+                            Hue features. With a Hue Bridge, you can add up to 50 smart light sources for control throughout
+                            the home.
+                        </p>
+
+                    </div>
+                    <button id="closebutton" onclick="closebuttonphilipshuetaklampa()">Close</button>
+                </div>
+            </div>
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.philipshuespotlight.jpg" alt="Picture of philips hue spotlight lampa"
+                    onclick="philipshuespotlight()">
+                <h3 onclick="philipshuespotlight()">Philips hue spotlight</h3>
+                <p>199 $</p>
+                <form action="./../webbshop/adress.eng.html">
+                    <button>Buy now</button>
+                </form>
+            </div>
+
+            <div id="overlayphilipshuespotlight">
+                <div id="informationphilipshuespotlight">
+                    <h3>Philips Hue spotligt</h3>
+                    <img src="./../webbshop/webbshop.philipshuespotlight.jpg"
+                        alt="Picture of philips hue spotlight taklampa" class="webbpopup">
+                    <div class="webbpopuptext">
+                        <p>Philips Hue White ambiance Runner in black has adjustable lights so you can use both
+                            hot and cold light. With three heads, you can decide for yourself where the light should be directed.
+                            Use built-in light modes for your daily routines and control the smart lights with
+                            the supplied dimmer switch or via Bluetooth.
+                        </p>
+
+                    </div>
+                    <button id="closebutton" onclick="closebuttonphilipshuespotlight()">Close</button>
+                </div>
+            </div>
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.imoucctv.jpg" alt="Picture on imou cameras"
+                    onclick="imoucctv()">
+                <h3 onclick="imoucctv()">Security system</h3>
+                <p>339 $</p>
+                <form action="./../webbshop/adress.eng.html">
+                    <button>Buy now</button>
+                </form>
+            </div>
+
+            <div id="overlayimoucctv">
+                <div id="informationimoucctv">
+                    <h3>Security system</h3>
+                    <img src="./../webbshop/webbshop.imoucctv.jpg" alt="Bild på imou övervakningskameror"
+                        class="webbpopup">
+                    <div class="webbpopuptext">
+                        <p>CCTV Kit 4-Cameras – Lite is a wireless security system about a base station and four cameras
+                            as films in 1080P FHD Video and is equipped with a 1TB hard drive. The cameras also have a
+                            built-in microphone that clearly captures sound during monitoring. The monitoring system is
+                            IP67 rated and works great in all types of weather. The cameras have a double antenna too
+                            WiFi connection and they pair automatically.
+                        </p>
+
+                    </div>
+                    <button id="closebutton" onclick="closebuttonimoucctv()">Close</button>
+                </div>
+            </div>
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.googlenest.jpg" alt="Bild på google nest övervakningskamera"
+                    onclick="googlenest()">
+                <h3 onclick="googlenest()">Google Nest</h3>
+                <p>179 $</p>
+                <form action="./../webbshop/adress.eng.html">
+                    <button>Buy now</button>
+                </form>
+            </div>
+
+            <div id="overlaygooglenest">
+                <div id="informationgooglenest">
+                    <h3>Google nest</h3>
+                    <img src="./../webbshop/webbshop.googlenest.jpg" alt="Picture on google nest camera"
+                        class="webbpopup">
+                    <div class="webbpopuptext">
+                        <p>Google Nest NQ is the new surveillance camera that is packed with all smart functions
+                            you may need. Image sensor of 1/2.8 inch and 2 megapixels gives you razor-sharp images in
+                            real time, built-in intelligence means that the camera can distinguish between known and unknown faces. The camera
+                            can also sort out irrelevant things such as a leaf blowing by, so you get
+                            only notifications when something important happens. If an outsider fingers your camera
+                            you will automatically be notified at the same time as the camera emits a loud sound signal.
+                            NQ also works great inside the house as a baby monitor or a watchful eye over yours
+                            pets.
+                        </p>
+
+                    </div>
+                    <button id="closebutton" onclick="closebuttongooglenest()">Close</button>
+                </div>
+            </div>
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.imourex.jpg" alt="Picture on imou rex camera"
+                    onclick="imourex()">
+                <h3 onclick="imourex()">Imou Rex</h3>
+                <p>59 $</p>
+                <form action="./../webbshop/adress.eng.html">
+                    <button>Buy now</button>
+                </form>
+            </div>
+
+            <div id="overlayimourex">
+                <div id="informationimourex">
+                    <h3>Imou Rex</h3>
+                    <img src="./../webbshop/webbshop.imourex.jpg" alt="Picture on Imou Rex camera"
+                        class="webbpopup">
+                    <div class="webbpopuptext">
+                        <p>ex 4MP from IMOU ensures that every corner of your home is monitored. With features like
+                            4MP QHD live monitoring, pan & tilt, Human Detection, Smart Tracking and built-in spotlight
+                            and siren, it helps you keep track of your home - even when you're not at home. Rex 4MP finds
+                            quickly human targets in the images and keeps unwelcome visitors away, while it also
+                            keeps you informed. The Rex 4MP from IMOU suits you who are looking for a fully loaded
+                            surveillance camera for fully fed monitoring simply!
+                        </p>
+
+                    </div>
+                    <button id="closebutton" onclick="closebuttonimourex()">Close</button>
+                </div>
+            </div>
+
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.arlopro.jpg" alt="Picture on 4 Arlo pro 5 cameras"
+                    onclick="arlopro()">
+                <h3 onclick="arlopro()">Arlo Pro 5</h3>
+                <p>899 $</p>
+                <form action="./../webbshop/adress.eng.html">
+                    <button>Buy now</button>
+                </form>
+            </div>
+
+            <div id="overlayarlopro">
+                <div id="informationarlopro">
+                    <h3>4-pack övervakningskamera med 2K & mörkerseende</h3>
+                    <img src="./../webbshop/webbshop.arlopro.jpg" alt="Picture on 4 Arlo pro 5 cameras"
+                        class="webbpopup">
+                    <div class="webbpopuptext">
+                        <p>The Arlo Pro 5 4-pack Spotlight Camera 2K is the ultimate solution for home security and your
+                            peace of mind With 2K resolution and advanced color night vision, these cameras provide clear images
+                            of your home and its surroundings, both day and night. They are equipped with built-in spotlights and
+                            one the siren that provides a strong deterrent effect against potential intruders. These cameras are
+                            wireless and weather resistant, making them ideal for both indoor and outdoor use. In addition
+                            have they a long battery life of up to 8 months, so you don't have to worry about constantly changing
+                            batteries. Protect your home 24/7 and customize your security with the help of Arlo
+                            The Secure app.
+                        </p>
+
+                    </div>
+                    <button id="closebutton" onclick="closebuttonarlopro()">Close</button>
+                </div>
+            </div>
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.imoucell.jpg" alt="Picture on imou cell 2"
+                    onclick="imoucell()">
+                <h3 onclick="imoucell()">Imou Cell 2</h3>
+                <p>89 $</p>
+                <form action="./../webbshop/adress.eng.html">
+                    <button>Buy now</button>
+                </form>
+            </div>
+
+            <div id="overlayimoucell">
+                <div id="informationimoucell">
+                    <h3>Imou cell 2</h3>
+                    <img src="./../webbshop/webbshop.imoucell.jpg" alt="Picture on imou cell 2"
+                        class="webbpopup">
+                    <div class="webbpopuptext">
+                        <p>With IMOU Cell 2, you get full control over the security of your home. This wireless 4 MP
+                            surveillance camera films in QHD resolution and has smart features such as
+                            two way communication, night vision, Wi-Fi connection and rechargeable battery that lasts up to 180 days
+                            on a charge. IMOU Cell 2 is a smart camera that can distinguish people from other objects
+                            which means fewer false alarms and notifications only if something really happens. The camera
+                            needs only 0.3 seconds to detect a person approaching your home and you get one notification immediately when this happens. Relax in your home while Cell 2 keeps tabs on the situation.
+                        </p>
+
+                    </div>
+                    <button id="closebutton" onclick="closebuttonimoucell()">Close</button>
+                </div>
+            </div>
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.deltaco.jpg" alt="Picture on deltaco camera"
+                    onclick="deltaco()">
+                <h3 onclick="deltaco()">Deltaco SH-IPC06</h3>
+                <p>49 $</p>
+                <form action="../../webbshop/adress.eng.html">
+                    <button>Buy now</button>
+                </form>
+            </div>
+
+            <div id="overlaydeltaco">
+                <div id="informationdeltaco">
+                    <h3>Deltaco SH-IPC06</h3>
+                    <img src="./../webbshop/webbshop.deltaco.jpg" alt="Picture on deltaco camer"
+                        class="webbpopup" onclick="deltaco()">
+                    <div class="webbpopuptext">
+                        <p>Keep an eye on your home even when you're not there, with the SH-IPC06 surveillance camera from Deltaco.
+                            The SH-IPC06 detects motion and is equipped with IR night vision to always provide you
+                            the ability to instantly review streaming video from your house, day or night no matter where you are
+                            is. The Pan & Tilt function makes it possible to easily adjust the image laterally and vertically for one
+                            extended picture area and with two-way sound, you get not only picture but also the possibility to hear and
+                            talk with your visitors. The camera has a resolution of 1920 x 1080 (2MP) and a Micro-SD card slot
+                            for storage of recorded material.
+                        </p>
+
+                    </div>
+                    <button id="closebutton" onclick="closebuttondeltaco()">Close</button>
+                </div>
+            </div>
+
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.sonosera300.jpg" alt="Picture on Sonos Era 300" onclick="sonosera300()">
+                <h3 onclick="sonosera300()">Sonos Era 300</h3>
+                <p>599 $</p>
+                <form action="./../webbshop/adress.eng.html">
+                    <button>Buy now</button>
+                </form>
+            </div>
+
+            <div id="overlaysonosera300">
+                <div id="informationsonosera300">
+                    <h3 onclick="sonosera300()">Sonos Era300</h3>
+                    <img src="./../webbshop/webbshop.sonosera300.jpg" alt="Bild på sonos era 300" class="webbpopup"
+                        onclick="sonosera300()">
+                    <div class="webbpopuptext">
+                        <p>With the Era 300, you get first-class sound from all directions and surround sound that puts you right in the middle
+                            the music. Connect to all your content and devices via Wi-Fi, Bluetooth® or
+                            line path of 3.5 mm. Get an optimal Dolby Atmos experience by connecting two
+                            to one Arc or Beam (gen 2).
+                        </p>
+                    </div>
+                    <button id="closebutton" onclick="closebuttonsonosera300()">Close</button>
+                </div>
+            </div>
+
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.marshall.jpg" alt="Picture on Marshall speaker" onclick="marshall()">
+                <h3 onclick="marshall()">Marshall Action II BT</h3>
+                <p> 169 $</p>
+                <form action="./../webbshop/adress.eng.html">
+                    <button>Buy now</button>
+                </form>
+            </div>
+
+            <div id="overlaymarshall">
+                <div id="informationmarshall">
+                    <h3 onclick="marshall()">Marshall Action II BT</h3>
+                    <img src="./../webbshop/webbshop.marshall.jpg" alt="Picture on marshall speaker" class="webbpopup"
+                        onclick="marshall()">
+                    <div class="webbpopuptext">
+                        <p>The Marshall Acton II BT gives you the most compact speaker in the range but delivers a
+                            well balanced sound experience you can easily place almost anywhere. Get powerful stereo sound out of one
+                            speaker with three separate class-D amplifiers driving two tweeters as well as a subwoofer in a stylish
+                            unit with classic Marshall design. Here you will find both modern details and modern functionality
+                            as support for Bluetooth 5.0 for excellent audio transmission but also with cable if desired.
+                        </p>
+
+                    </div>
+                    <button id="closebutton" onclick="closebuttonmarshall()">Close</button>
+                </div>
+            </div>
+
+
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.andersson.jpg" alt="Picture on andersson speaker."
+                    onclick="andersson()">
+                <h3 onclick="andersson()">Andersson ORS 3.2</h3>
+                <p>39 $</p>
+                <form action="./../webbshop/adress.eng.html">
+                    <button>Buy now</button>
+                </form>
+            </div>
+
+            <div id="overlayandersson">
+                <div id="informationandersson">
+                    <h3 onclick="andersson()">Andersson ORS 3.2</h3>
+                    <img src="./../webbshop/webbshop.andersson.jpg" alt="Picture on andersson speaker" class="webbpopup"
+                        onclick="andersson()">
+                    <div class="webbpopuptext">
+                        <p>These pleasant speakers can be used both indoors and outdoors. With these speakers on
+                            the patio, the small company or in the garage, you can easily enhance the stay with lovely pleasant music
+                            as you easily stream from any Bluetooth device or plug in via a 3.5 mm input.
+                        </p>
+
+                    </div>
+                    <button id="closebutton" onclick="closebuttonandersson()">Close</button>
+                </div>
+            </div>
+
+
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.harmankardon.jpg" alt="Picture on harman kardon speaker"
+                    onclick="harmankardon()">
+                <h3 onclick="harmankardon()">Onyx 7</h3>
+                <p>129 $</p>
+                <form action="../../webbshop/adress.eng.html">
+                    <button>Buy now</button>
+                </form>
+            </div>
+
+            <div id="overlayharmankardon">
+                <div id="informationharmankardon">
+                    <h3 onclick="harmankardon()">Onyx 7</h3>
+                    <img src="./../webbshop/webbshop.harmankardon.jpg" alt="Picture on harman kardon speaker"
+                        class="webbpopup" onclick="harmankardon()">
+                    <div class="webbpopuptext">
+                        <p>Fill your life with more music together with Harman Kardon's wireless speaker Onyx Studio 7.
+                            With its elegant design and robust handle make the speaker a handy companion when you are
+                            out in the summer weather or at home in the living room. With impressive sound and bass, the speaker is
+                            Immediately centerpiece of the party. Simply pair your smartphone with the speaker via Bluetooth and listen
+                            on your favorite playlist - wherever you are.
+                        </p>
+
+                    </div>
+                    <button id="closebutton" onclick="closebuttonharmankardon()">Close</button>
+                </div>
+            </div>
+
+
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.google.jpg" alt="Picture on google nest mini speaker" onclick="googlenestmini()">
+                <h3 onclick="googlenestmini()">Google Nest Mini</h3>
+                <p>59 $</p>
+                <form action="../../webbshop/adress.eng.html">
+                    <button>Buy now</button>
+                </form>
+            </div>
+
+            <div id="overlaygooglenestmini">
+                <div id="informationgooglenestmini">
+                    <h3 onclick="googlenestmini()">Google Nest Mini</h3>
+                    <img src="./../webbshop/webbshop.google.jpg" alt="Picture on google nest mini speaker"
+                        class="webbpopup" onclick="googlenestmini()">
+                    <div class="webbpopuptext">
+                        <p>The Google Nest Mini 2nd Generation is the latest addition to Google's smart speakers.
+                            Start your favorite playlist in the middle of the kitchen or turn on the TV without having to reach for it
+                            the remote control - with Nest Mini you can control your home through voice control thanks to
+                            The Google Assistant. Long-awaited updates such as fuller bass and a smart adaptive
+                            sound control makes this puck-shaped smart speaker a very pleasant companion in the home.
+                            With its compact design and its built-in wall bracket, you can easily place it in all your rooms.
+                        </p>
+
+                    </div>
+                    <button id="closebutton" onclick="closebuttongooglenestmini()">Close</button>
+                </div>
+            </div>
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.philips.jpg" alt="Picture on philips speaker" onclick="philips()">
+                <h3 onclick="philips()">Philips TAW6205/10</h3>
+                <p>199 $</p>
+                <form action="./../webbshop/adress.eng.html">
+                    <button>Buy now</button>
+                </form>
+            </div>
+
+            <div id="overlayphilips">
+                <div id="informationphilips">
+                    <h3 onclick="philips()">Philips TAW6205/10</h3>
+                    <img src="./../webbshop/webbshop.philips.jpg" alt="Picture on philips speaker" class="webbpopup"
+                        onclick="philips()">
+                    <div class="webbpopuptext">
+                        <p>This wireless speaker is great on its own and even better with others.
+                            Match it with the TV or other speakers for great multi-room sound. Pair up
+                            for stereo. Or make Ambilight on your Philips TV even better by also connecting the speaker.
+                        </p>
+                    </div>
+                    <button id="closebutton" onclick="closebuttonphilips()">Close</button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>

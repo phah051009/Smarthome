@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Return</title>
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="stylesheet" href="./../css/settings.css">
+    <script src="./../Main.js"></script>
+
+</head>
+<body>
+    <nav>
+        <ul class="navbar-länkar">
+            <li><a href="./../meny/index.eng.html">Start</a></li>
+            <li><a href="./../meny/om.eng.html">About</a></li>
+            <li><a href="./../meny/blogg.eng.html">Blog</a></li>
+            <li><a href="./../webbshop/webbshop.eng.html">Webshop</a></li>
+            <li><a href="./../meny/kontakt.eng.html">Contact</a></li>
+            <li><a href="./../meny/login.eng.html">Sign in</a></li>
+            <li><a href="./../meny/inställningar.eng.html">Settings</a></li>
+        </ul> 
+    </nav> 
+
+    <img src="./../bilder/user.jpg" alt="" id="symbol" class="hidden">
+
+    <h1>Return</h1>
+
+
+    <div class="contact">
+    <form action="" method="get" onsubmit="event.preventDefault(); Getinfobox()">
+        <input type="text" placeholder="Name:" required>
+        <input type="email" placeholder="E-mail:" required>
+        <input type="text" pattern="[0-9+]+" placeholder="Phonenumber:" required> 
+        <input type="text" placeholder="Ordernumber:" required>
+
+        <select id="Country" plceholder="Reason for return*" required>
+            <option value="choose">Reason for return*</option>
+            <option value="choose">1. Late delivery</option>
+            <option value="choose">2. Does not match  description</option>
+            <option value="choose">3. Dissatisfied with the product</option>
+            <option value="choose">4. Wrong item</option>
+            <option value="choose">5. Other</option>
+            <option value="choose">6. Broken/damaged on delivery</option>
+        </select>
+        <textarea name=""  cols="30" rows="10" placeholder="Message:"></textarea>
+        <button type="sumbit" class="button">Send request for return</button>
+    </form>
+</div>
+
+<div id="information">
+    <h3>Your return request has been received</h3>
+    <p>You will receive a return slip within 5 minutes to your E-mail</p>
+
+    <form action="./../meny/index.eng.html">
+        <button id="closebutton" onclick="closebutton()">Close</button>
+    </form>
+
+</div>
+
+    
+    
+
+
+</body>
+</html>

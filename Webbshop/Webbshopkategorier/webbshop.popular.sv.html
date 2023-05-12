@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webbshop - Populärt</title>
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="stylesheet" href="./../css/webbshop.css">
+    <link rel="stylesheet" href="./../css/settings.css">
+
+
+    <script src="./../Main.js"></script>
+    <script src="./../webbshop.js"></script>
+
+
+</head>
+
+<body>
+    <nav>
+        <ul class="navbar-länkar">
+            <li><a href="./../meny/index.sv.html">Start</a></li>
+            <li><a href="./../meny/om.sv.html">Om</a></li>
+            <li><a href="./../meny/blogg.sv.html">Blogg</a></li>
+            <li><a href="./../webbshop/webbshop.sv.html">Webbshop</a></li>
+            <li><a href="./../meny/kontakt.sv.html">Kontakt</a></li>
+            <li><a href="./../meny/login.sv.html">Logga in</a></li>
+            <li><a href="./../meny/inställningar.sv.html">inställningar</a></li>
+        </ul>
+    </nav>
+
+
+    <h1 class="starttext">Populära produkter</h1>
+    <div>
+        <div class="dropdown-menu">
+
+            <button class="menu-btn"><img src="./../webbshop/meny.png" alt=""></button>
+            <div class="menu-content">
+                <a class="links" href="./../webbshop/webbshopkategorier/webbshop.popular.sv.html">Populärt</a>
+                <a class="links" href="./../webbshop/webbshopkategorier/webbshop.light.sv.html">Belysning</a>
+                <a class="links" href="./../webbshop/webbshopkategorier/webbshop.speaker.sv.html">Högtalare</a>
+                <a class="links" href="./../webbshop/webbshopkategorier/webbshop.security.sv.html">Säkerhet</a>
+                <a class="links" href="./../webbshop/webbshopkategorier/webbshop.outlet.sv.html">Outlet</a>
+
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <img src="./../bilder/user.jpg" alt="" id="symbol" class="hidden">
+
+    <div class="webbshopcontainer">
+
+        <div class="products">
+
+            <div class="produkt">
+                <img src="./../webbshop/webshop.philipshue.jpg" alt="Bild på philips hue startpaket"
+                    onclick="Getinfobox()">
+                <h3 onclick="Getinfobox()">Philips hue startkit</h3>
+                <p>899 kr</p>
+                <form action="./../webbshop/adress.sv.html">
+                    <button>Köp nu</button>
+                </form>
+            </div>
+
+            <div id="overlayphilipshue">
+                <div id="information">
+                    <h3>Philips hue Startkit</h3>
+                    <img src="./../webbshop/webshop.philipshue.jpg" alt="Bild på philips hue startkit" class="webbpopup">
+                    <div class="webbpopuptext">
+                        <p>Philips HUE är ett smart belysningssystem som låter dig styra dina lampor och belysning hemma
+                            från mobilen, var du än befinner dig. Detta startkit med två stycken LED-lampor i Philips
+                            Hue-serien och en Hue-brygga är en god start till en smart hembelysning. Med Philips Hue kan du
+                            själv styra hur du vill ha ditt ljus i hemmet. 
+                        </p> 
+                    </div> 
+                    <button id="closebutton" onclick="closebutton()">Stäng</button>
+                </div>
+            </div>
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.philipshueplay.jpg"
+                    alt="Bild på philipshue lampor som är tillbehör till tvn" onclick="philipshueplay()">
+                <h3 onclick="philipshueplay()">Philips hue play</h3>
+                <p>1 449 kr</p>
+                <form action="./../webbshop/adress.sv.html">
+                    <button>Köp nu</button>
+                </form>
+            </div>
+
+            <div id="overlayphilipshueplay">
+                <div id="informationphilipshueplay">
+                    <h3>Philips hue Play</h3>
+                    <img src="./../webbshop/webbshop.philipshueplay.jpg" alt="Bild på philips hue startkit"
+                    class="webbpopup">
+                    <div class="webbpopuptext">
+                        <p>Skapa stämning med många färger och nyanser med hjälp av ett 2-pack Philips HUE Play ljusskenor.
+                            Placera dina ljusskenor bakom din TV och få en häftig ambilight eller placera belysningen på
+                            andra ställen för att skapa häftiga effekter i ditt hem. Med Philips Hue bryggan och den
+                            nedladdningsbara gratisappen styr du din belysning. Via appen kan du experimentera och bland
+                            annat välja mellan 16 miljoner olika färger samt släcka eller tända belysningen.
+                        </p>
+                        
+                    </div>
+                    <button id="closebutton" onclick="closebuttonphilipshueplay()">Stäng</button>
+                </div>
+            </div>
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.philipshueoutdoor.jpg"
+                    alt="Bild på philips hue utomhus rörelsesensor." onclick="philipshueoutdoor()">
+                <h3 onclick="philipshueoutdoor()">Philips hue rörelsesensor</h3>
+                <p>549 kr</p>
+                <form action="./../webbshop/adress.sv.html">
+                    <button>Köp nu</button>
+                </form>
+            </div>
+
+            <div id="overlayphilipshueoutdoor">
+                <div id="informationphilipshueoutdoor">
+                    <h3>Philips hue outdoor</h3>
+                    <img src="./../webbshop/webbshop.philipshueoutdoor.jpg" alt="Bild på philips hue utomhus rörelsesensor"
+                    class="webbpopup">
+                    <div class="webbpopuptext">
+                        <p>Philips Hue Outdoor Sensor är en rörelsesensor för utomhusbruk som du kopplar samman med ditt
+                            Philips Hue-system. Sensorn är IP54-klassad vilket gör att den klarar av alla väderförhållanden.
+                            Koppla sensorn till din Philips Hue-brygga så kan du låta sensorn styra dina utomhuslampor
+                            automatiskt.
+                        </p>
+                    </div>
+                    <button id="closebutton" onclick="closebuttonphilipshueoutdoor()">Stäng</button>
+                </div>
+            </div>
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.philipshueljusslinga.jpg" alt="Bild på philips ljusslinga."
+                    onclick="philipshueljusslinga()">
+                <h3 onclick="philipshueljusslinga()">Philips hue ljusslinga</h3>
+                <p>1 539kr</p>
+                <form action="./../webbshop/adress.sv.html">
+                    <button>Köp nu</button>
+                </form>
+            </div>
+
+            <div id="overlayphilipshueljusslinga">
+                <div id="informationphilipshueljusslinga">
+                    <h3>Philips hue ljusslinga</h3>
+                    <img src="./../webbshop/webbshop.philipshueljusslinga.jpg" alt="Bild på philips hue ljusslinga"
+                    class="webbpopup">
+                    <div class="webbpopuptext">
+                        <p>Philips Hue Lightstrip Outdoor är en flexibel ljusslinga för utomhusbruk, som kan böjas och
+                            formas efter dina egna önskemål. Lightstrip Outdoor har en längd på 2 meter och kan fästas i
+                            stort sett var som helst, längst med gången, väggen, balkongräcket eller vart du vill. Med 16
+                            miljoner färger och dimmerfunktion är den ultimat för att lysa upp din trädgård när det börjar
+                            skymma.
+                        </p>
+                        
+                    </div>
+                    <button id="closebutton" onclick="closebuttonphilipshueljusslinga()">Stäng</button>
+                </div>
+            </div>
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.philipshuetaklampa.jpg" alt="Bild på philips hue taklampa rgb"
+                    onclick="philipshuetaklampa()">
+                <h3 onclick="philipshuetaklampa()">Philips hue taklampa</h3>
+                <p>2 290 kr</p>
+                <form action="./../webbshop/adress.sv.html">
+                    <button>Köp nu</button>
+                </form>
+            </div>
+
+            <div id="overlayphilipshuetaklampa">
+                <div id="informationphilipshuetaklampa">
+                    <h3>Philips hue taklampa</h3>
+                    <img src="./../webbshop/webbshop.philipshuetaklampa.jpg" alt="Bild på philips hue taklampa"
+                    class="webbpopup">
+                    <div class="webbpopuptext">
+                        <p>Med taklampan Infuse från Philips Hue kan du lysa upp större rum och utrymmen. Den passar perfekt
+                            i exempelvis vardagsrummet, men även i matsalen, eller varför inte på källarvåningen? Infuse ger
+                            ett diskret sken mot taket och en kraftfull belysning nedåt som fyller rummet med ett mjukt ljus
+                            – i alla nyanser av vitt eller färgat ljus. Philips Hue rekommenderar att du köper till Hue
+                            Bridge till din smarta belysning så att du kan uppleva hela utbudet av Philips Hue-funktioner.
+                            Med en Hue Bridge kan du lägga till upp till 50 smarta ljuskällor för styrning i hela hemmet.
+                        </p>
+                    </div>
+                    <button id="closebutton" onclick="closebuttonphilipshuetaklampa()">Stäng</button>
+                </div>
+            </div>
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.philipshuespotlight.jpg" alt="Bild på philips hue spotlight lampa"
+                    onclick="philipshuespotlight()">
+                <h3 onclick="philipshuespotlight()">Philips hue spotlight</h3>
+                <p>1 990 kr</p>
+                <form action="./../webbshop/adress.sv.html">
+                    <button>Köp nu</button>
+                </form>
+            </div>
+
+            <div id="overlayphilipshuespotlight">
+                <div id="informationphilipshuespotlight">
+                    <h3>Philips Hue spotligt-bar svart med 3st lampor</h3>
+                    <img src="./../webbshop/webbshop.philipshuespotlight.jpg" alt="Bild på philips hue spotlight taklampa"
+                    class="webbpopup">
+                    <div class="webbpopuptext">
+                        <p>Philips Hue White ambiance Runner i svart har justerbara lampor så att du kan nyttja både varmt
+                            och kallt ljus. Med tre stycken huvuden kan du själv bestämma vart ljuset ska vara riktat.
+                            Använd inbyggda ljuslägen för dina dagliga rutiner och kontrollera de smarta lamporna med den
+                            medföljande dimmerbrytaren eller via Bluetooth.
+                        </p>
+                        
+                    </div>
+                    <button id="closebutton" onclick="closebuttonphilipshuespotlight()">Stäng</button>
+                </div>
+            </div>
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.imoucctv.jpg" alt="Bild på imou övervakningskameror"
+                    onclick="imoucctv()">
+                <h3 onclick="imoucctv()">Övervakningssystem</h3>
+                <p>3 390 kr</p>
+                <form action="./../webbshop/adress.sv.html">
+                    <button>Köp nu</button>
+                </form>
+            </div>
+
+            <div id="overlayimoucctv">
+                <div id="informationimoucctv">
+                    <h3>Övervakningssystem med basstation & fyra kameror</h3>
+                    <img src="./../webbshop/webbshop.imoucctv.jpg" alt="Bild på imou övervakningskameror"
+                    class="webbpopup">
+                    <div class="webbpopuptext">
+                        <p>CCTV Kit 4-Cameras – Lite är ett trådlöst säkerhetssystem om en basstation och fyra kameror som
+                            filmar i 1080P FHD Video och är utrustad med en hårddisk om 1TB. Kamerorna har dessutom en
+                            inbyggd mikrofon som tydligt fångar upp ljud under övervakningen. Övervakningssystemet är
+                            IP67-klassade och fungerar utmärkt i alla typer av väder. Kamerorna har dubbel antenn för
+                            WiFi-anslutning och de parkopplas automatiskt.
+                        </p>
+                        
+                    </div>
+                    <button id="closebutton" onclick="closebuttonimoucctv()">Stäng</button>
+                </div>
+            </div>
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.googlenest.jpg" alt="Bild på google nest övervakningskamera"
+                    onclick="googlenest()">
+                <h3 onclick="googlenest()">Google Nest</h3>
+                <p>1 790 kr</p>
+                <form action="./../webbshop/adress.sv.html">
+                    <button>Köp nu</button>
+                </form>
+            </div>
+
+            <div id="overlaygooglenest">
+                <div id="informationgooglenest">
+                    <h3>Smart övervakningskamera för inomhus och utomhusbruk</h3>
+                    <img src="./../webbshop/webbshop.googlenest.jpg" alt="Bild på google nest övervakningskamera"
+                    class="webbpopup">
+                    <div class="webbpopuptext">
+                        <p>Google Nest NQ är den nya övervakningskameran som är fullproppad med alla smarta funktioner du
+                            kan tänkas behöva. Bildsensor på 1/2,8 tum och 2 megapixel ger dig knivskarpa bilder i realtid,
+                            inbygg intelligens gör så att kameran kan se skillnad på kända och okända ansikten. Kameran kan
+                            dessutom sortera bort irrelevanta saker som t.ex. ett löv som blåser förbi, du får alltså endast
+                            notifieringar när det är nåt viktigt som händer. Om någon utomstående fingrar på din kamera
+                            kommer du automatiskt bli notifierad samtidigt som kameran ger ifrån sig en hög ljudsignal. NQ
+                            fungerar även utmärkt inne i huset som en babymonitor eller ett vakande öga över ditt husdjur.
+                        </p>
+                        
+                    </div>
+                    <button id="closebutton" onclick="closebuttongooglenest()">Stäng</button>
+                </div>
+            </div>
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.imourex.jpg" alt="Bild på imou rex övervakningskamera"
+                    onclick="imourex()">
+                <h3 onclick="imourex()">Imou Rex</h3>
+                <p>590 kr</p>
+                <form action="./../webbshop/adress.sv.html">
+                    <button>Köp nu</button>
+                </form>
+            </div>
+
+            <div id="overlayimourex">
+                <div id="informationimourex">
+                    <h3>Imou Rex</h3>
+                    <img src="./../webbshop/webbshop.imourex.jpg" alt="Bild på Imou Rex övervakningskamera"
+                    class="webbpopup">
+                    <div class="webbpopuptext">
+                        <p>Rex 4MP från IMOU säkerställer att vartenda hörn av ditt hem är övervakat. Med funktioner som 4MP
+                            QHD live-övervakning, pan & tilt, Human Detection, Smart Tracking och inbyggd strålkastare samt
+                            siren hjälper den dig att hålla koll på ditt hem – även när du inte är hemma. Rex 4MP hittar
+                            snabbt mänskliga mål i bilderna och håller ovälkomna besökare borta, samtidigt som den också
+                            håller dig informerad. Rex 4MP från IMOU passar dig som söker en fullmatad övervakningskamera –
+                            för en fullmatad övervakning helt enkelt!
+                        </p>
+                        
+                    </div>
+                    <button id="closebutton" onclick="closebuttonimourex()">Stäng</button>
+                </div>
+            </div>
+
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.arlopro.jpg" alt="Bild på 4st Arlo pro 5 övervakningskameror"
+                    onclick="arlopro()">
+                <h3 onclick="arlopro()">Arlo Pro 5</h3>
+                <p>8 990 kr</p>
+                <form action="./../webbshop/adress.sv.html">
+                    <button>Köp nu</button>
+                </form>
+            </div>
+
+            <div id="overlayarlopro">
+                <div id="informationarlopro">
+                    <h3>4-pack övervakningskamera med 2K & mörkerseende</h3>
+                    <img src="./../webbshop/webbshop.arlopro.jpg" alt="Bild på Arlo pro  övervakningskamera"
+                    class="webbpopup">
+                    <div class="webbpopuptext">
+                        <p>Arlo Pro 5 4-pack Spotlight Camera 2K är den ultimata lösningen för hemmets säkerhet och din
+                            sinnesro. Med 2K-upplösning och avancerad mörkerseende i färg ger dessa kameror klara bilder av
+                            ditt hem och dess omgivning, både dag och natt. Dom är utrustade med inbyggda spotlights och en
+                            siren som ger en stark avskräckande effekt mot potentiella inkräktare. Dessa kameror är trådlösa
+                            och väderbeständiga, vilket gör dom idealiska för både inomhus- och utomhusbruk. Dessutom har de
+                            en lång batteritid på upp till 8 månader, så du behöver inte oroa dig för att ständigt byta
+                            batterier. Skydda ditt hem dygnet runt och anpassa din säkerhet med hjälp av Arlo Secure-appen.
+                        </p>
+                        
+                    </div>
+                    <button id="closebutton" onclick="closebuttonarlopro()">Stäng</button>
+                </div>
+            </div>
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.imoucell.jpg" alt="Bild på imou cell 2 övervakningskamera"
+                    onclick="imoucell()">
+                <h3 onclick="imoucell()">Imou Cell 2</h3>
+                <p>890 kr</p>
+                <form action="./../webbshop/adress.sv.html">
+                    <button>Köp nu</button>
+                </form>
+            </div>
+
+            <div id="overlayimoucell">
+                <div id="informationimoucell">
+                    <h3>Trådlös övervakningskamera med Wi-Fi</h3>
+                    <img src="./../webbshop/webbshop.imoucell.jpg" alt="Bild på imou cell övervakningskamera"
+                    class="webbpopup">
+                    <div class="webbpopuptext">
+                        <p>Med IMOU Cell 2 får du full kontroll över säkerheten i ditt hem. Denna trådlösa 4 MP
+                            övervakningskamera filmar i QHD-upplösning och har smarta funktioner som tvåvägskommunikation,
+                            mörkerseende, Wi-Fi anslutning och uppladdningsbart batteri som håller i upp till 180 dagar på
+                            en laddning. IMOU Cell 2 är en smart kamera som kan skilja människor från andra objekt vilket
+                            innebär färre falska alarm och notifikationer endast om det händer något på riktigt. Kameran
+                            behöver endast 0.3 sekunder på sig att detektera en person som närmar sig ditt hem och du får en
+                            notifikation direkt när detta sker. Koppla av i ditt hem medan Cell 2 håller koll på läget.
+                            
+                        </p>
+                        
+                    </div>
+                    <button id="closebutton" onclick="closebuttonimoucell()">Stäng</button>
+                </div>
+            </div>
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.deltaco.jpg" alt="Bild på Deltaco övervakningskamera"
+                    onclick="deltaco()">
+                <h3 onclick="deltaco()">Deltaco SH-IPC06</h3>
+                <p>499 kr</p>
+                <form action="./../webbshop/adress.sv.html">
+                    <button>Köp nu</button>
+                </form>
+            </div>
+
+            <div id="overlaydeltaco">
+                <div id="informationdeltaco">
+                    <h3>Deltaco övervakningskamera</h3>
+                    <img src="./../webbshop/webbshop.deltaco.jpg" alt="Bild på Deltaco övervakningskamera"
+                    class="webbpopup" onclick="deltaco()">
+                    <div class="webbpopuptext">
+                        <p>Håll koll på ditt hem även när du inte är där, med övervakningskameran SH-IPC06 från Deltaco.
+                            SH-IPC06 upptäcker rörelse och är utrustad med IR-nattvision för att alltid kunna ge dig
+                            möjligheten att direkt granska strömmande video från ditt hus, dag som natt oavsett vart du är.
+                            Pan & Tilt-funktionen gör det möjligt att enkelt justera bilden i sid- och höjdled för ett
+                            utökat bildområde och med tvåvägsljud får du förutom bild även möjligheten att höra och prata
+                            med dina besökare. Kameran har en upplösning på 1920 x 1080 (2MP) samt en Micro-SD kortplats för
+                            lagring av inspelat material.
+                        </p>
+                        
+                    </div>
+                    <button id="closebutton" onclick="closebuttondeltaco()">Stäng</button>
+                </div>
+            </div>
+
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.sonosera300.jpg" alt="Bild på Sonos Era 300" onclick="sonosera300()">
+                <h3 onclick="sonosera300()">Sonos Era 300</h3>
+                <p>5 990kr</p>
+                <form action="./../webbshop/adress.sv.html">
+                    <button>Köp nu</button>
+                </form>
+            </div>
+
+            <div id="overlaysonosera300">
+                <div id="informationsonosera300">
+                    <h3 onclick="sonosera300()">Sonos Era300</h3>
+                    <img src="./../webbshop/webbshop.sonosera300.jpg" alt="Bild på sonos era 300" class="webbpopup"
+                    onclick="sonosera300()">
+                    <div class="webbpopuptext">
+                        <p>Med Era 300 får du förstklassigt ljud från alla håll och surroundljud som placerar dig mitt i
+                            musiken. Anslut till allt ditt innehåll och alla dina enheter via Wi-Fi, Bluetooth® eller
+                            linjegången på 3,5 mm. Få en optimal Dolby Atmos-upplevelse genom att koppla två stycken till en
+                            Arc eller Beam (gen 2).
+                        </p>
+                    </div>
+                    <button id="closebutton" onclick="closebuttonsonosera300()">Stäng</button>
+                </div>
+            </div>
+
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.marshall.jpg" alt="Bild på Marshall högtalare" onclick="marshall()">
+                <h3 onclick="marshall()">Marshall Action II BT</h3>
+                <p> 1 690 kr</p>
+                <form action="./../webbshop/adress.sv.html">
+                    <button>Köp nu</button>
+                </form>
+            </div>
+
+            <div id="overlaymarshall">
+                <div id="informationmarshall">
+                    <h3 onclick="marshall()">Marshall Action II BT</h3>
+                    <img src="./../webbshop/webbshop.marshall.jpg" alt="Bild på marshall högtalare" class="webbpopup"
+                    onclick="marshall()">
+                    <div class="webbpopuptext">
+                        <p>Marshall Acton II BT ger dig den mest kompakta högtalaren i serien men levererar en välbalanserad
+                            ljudupplevelse du lätt kan placera nästintill överallt. Få kraftfullt stereoljud ur en högtalare
+                            med tre separata klass-D-förstärkare som driver två diskanter samt en subwoofer i en snygg enhet
+                            med klassisk Marshall-design. Här hittas både moderna detaljer samt modern funktionalitet som
+                            stöd för Bluetooth 5.0 för utmärkt ljudöverföring men även med kabel om så önskas.
+                        </p>
+                        
+                    </div>
+                    <button id="closebutton" onclick="closebuttonmarshall()">Stäng</button>
+                </div>
+            </div>
+
+
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.andersson.jpg" alt="Bild på andersson högtalare."
+                    onclick="andersson()">
+                <h3 onclick="andersson()">Andersson ORS 3.2</h3>
+                <p>399 kr</p>
+                <form action="./../webbshop/adress.sv.html">
+                    <button>Köp nu</button>
+                </form>
+            </div>
+
+            <div id="overlayandersson">
+                <div id="informationandersson">
+                    <h3 onclick="andersson()">Andersson ORS 3.2</h3>
+                    <img src="./../webbshop/webbshop.andersson.jpg" alt="Bild på Andersson högtalare" class="webbpopup"
+                    onclick="andersson()">
+                    <div class="webbpopuptext">
+                        <p>Dessa trivsamma högtalare kan användas både inomhus och utomhus. Med dessa högtalare på
+                            uteplatsen, lilla företaget eller i garaget förhöjer du lätt vistelsen med härlig skön musik som
+                            du enkelt streamar från alla Bluetooth-enheter eller kopplar in via en 3,5 mm ingång.
+                        </p>
+                        
+                    </div>
+                    <button id="closebutton" onclick="closebuttonandersson()">Stäng</button>
+                </div>
+            </div>
+
+
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.harmankardon.jpg" alt="Bild på harman kardon högtalare "
+                    onclick="harmankardon()">
+                <h3 onclick="harmankardon()">Onyx 7</h3>
+                <p>1 290 kr</p>
+                <form action="./../webbshop/adress.sv.html">
+                    <button>Köp nu</button>
+                </form>
+            </div>
+
+            <div id="overlayharmankardon">
+                <div id="informationharmankardon">
+                    <h3 onclick="harmankardon()">Trådlös högtalare med bärbar design</h3>
+                    <img src="./../webbshop/webbshop.harmankardon.jpg" alt="Bild på Harman kardon högtalare"
+                    class="webbpopup" onclick="harmankardon()">
+                    <div class="webbpopuptext">
+                        <p>Fyll ditt liv med mer musik tillsammans med Harman Kardons trådlösa högtalare Onyx Studio 7. Med
+                            dess eleganta design och robusta handtag blir högtalaren en smidig följeslagare när du är ute i
+                            sommarvädret eller hemma i vardagsrummet. Med imponerande ljud och bas blir högtalaren direkt
+                            festens mittpunkt. Para enkelt ihop din smartphone med högtalaren via Bluetooth och lyssna på
+                            din favoritspellista - vart du än är.
+                        </p>
+                        
+                    </div>
+                    <button id="closebutton" onclick="closebuttonharmankardon()">Stäng</button>
+                </div>
+            </div>
+
+
+
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.google.jpg" alt="Bild på google nest" onclick="googlenestmini()">
+                <h3 onclick="googlenestmini()">Google Nest Mini</h3>
+                <p>590 kr</p>
+                <form action="./../webbshop/adress.sv.html">
+                    <button>Köp nu</button>
+                </form>
+            </div>
+
+            <div id="overlaygooglenestmini">
+                <div id="informationgooglenestmini">
+                    <h3 onclick="googlenestmini()">Google Nest Mini - smart högtalare för röststyrning</h3>
+                    <img src="./../webbshop/webbshop.google.jpg" alt="Bild på google nest minihögtalare" class="webbpopup"
+                    onclick="googlenestmini()">
+                    <div class="webbpopuptext">
+                        <p>Google Nest Mini 2nd Generation är det senaste tillskottet bland Googles smarta högtalare. Starta
+                            din favoritspellista mitt i köksstöket eller sätt på TV:n utan att behöva sträcka dig efter
+                            fjärrkontrollen - med Nest Mini kan du styra ditt hem genom röststyrning tack vare
+                            Google-assistenten. Efterlängtade uppdateringar som fylligare bas och en smart adaptiv
+                            ljudkontroll gör denna puckformade smarthögtalare till ett mycket trevlig sällskap i hemmet. Med
+                            sin kompakta design och sitt inbyggda väggfäste kan du enkelt placera den i alla dina rum.
+                        </p>
+                        
+                    </div>
+                    <button id="closebutton" onclick="closebuttongooglenestmini()">Stäng</button>
+                </div>
+            </div>
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.philips.jpg" alt="Bild på Philips högtalare" onclick="philips()">
+                <h3 onclick="philips()">Philips TAW6205/10</h3>
+                <p>1 990 kr</p>
+                <form action="./../webbshop/adress.sv.html">
+                    <button>Köp nu</button>
+                </form>
+            </div>
+
+            <div id="overlayphilips">
+                <div id="informationphilips">
+                    <h3 onclick="philips()">Google Nest Mini - smart högtalare för röststyrning</h3>
+                    <img src="./../webbshop/webbshop.philips.jpg" alt="Bild på philips högtalare" class="webbpopup"
+                    onclick="philips()">
+                    <div class="webbpopuptext">
+                        <p>Den här trådlösa högtalaren är fantastisk på egen hand och ännu bättre tillsammans med andra.
+                            Matcha den med TV:n eller andra högtalare för att fantastiskt ljud i flera rum. Parkoppla för
+                            stereo. Eller gör Ambilight på din Philips-TV ännu bättre genom att även ansluta högtalaren.
+                        </p>
+                    </div>
+                    <button id="closebutton" onclick="closebuttonphilips()">Stäng</button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>

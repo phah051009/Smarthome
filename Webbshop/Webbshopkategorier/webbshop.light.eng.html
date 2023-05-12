@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart light</title>
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="stylesheet" href="./../css/webbshop.css">
+    <link rel="stylesheet" href="./../css/settings.css">
+
+
+    <script src="./../Main.js"></script>
+    <script src="./../webbshop.js"></script>
+
+
+</head>
+
+<body>
+    <nav>
+        <ul class="navbar-länkar">
+            <li><a href="./../meny/index.eng.html">Start</a></li>
+            <li><a href="./../meny/om.eng.html">About</a></li>
+            <li><a href="./../meny/blogg.eng.html">Blog</a></li>
+            <li><a href="./../webbshop/webbshop.eng.html">Webshop</a></li>
+            <li><a href="./../meny/kontakt.eng.html">Contact</a></li>
+            <li><a href="./../meny/login.eng.html">Sign in</a></li>
+            <li><a href="./../meny/inställningar.eng.html">Settings</a></li>
+        </ul>
+    </nav>
+
+
+    <h1 class="starttext">Smart light</h1>
+    <div>
+        <div class="dropdown-menu">
+
+            <button class="menu-btn"><img src="./../webbshop/meny.png" alt=""></button>
+            <div class="menu-content">
+                <a class="links" href="./../webbshop/webbshopkategorier/webbshop.popular.eng.html">Popularly</a>
+                <a class="links" href="./../webbshop/webbshopkategorier/webbshop.light.eng.html">Lighting</a>
+                <a class="links" href="./../webbshop/webbshopkategorier/webbshop.speaker.eng.html">Speaker</a>
+                <a class="links" href="./../webbshop/webbshopkategorier/webbshop.security.eng.html">Security</a>
+                <a class="links" href="./../webbshop/webbshopkategorier/webbshop.outlet.eng.html">Sale</a>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <img src="./../bilder/user.jpg" alt="" id="symbol" class="hidden">
+
+    <div class="webbshopcontainer">
+
+        <div class="products">
+
+            <div class="produkt">
+                <img src="./../webbshop/webshop.philipshue.jpg" alt="Picture on philips hue startkit"
+                    onclick="Getinfobox()">
+                <h3 onclick="Getinfobox()">Philips hue starterkit</h3>
+                <p>89 $</p>
+                <form action="./../webbshop/adress.eng.html">
+                    <button>Buy now</button>
+                </form>
+            </div>
+
+            <div id="overlayphilipshue">
+                <div id="information">
+                    <h3>Philips hue Starterkit</h3>
+                    <img src="./../webbshop/webshop.philipshue.jpg" alt="Picture on philips hue startkit"
+                        class="webbpopup">
+                    <div class="webbpopuptext">
+                        <p>Philips HUE is a smart lighting system that allows you to control your lights and lighting at
+                            home
+                            from your mobile, wherever you are. This starter kit with two Philips LED lamps
+                            The Hue series and a Hue bridge are a good start to smart home lighting. With Philips Hue
+                            you can
+                            control how you want your light in the home.
+                        </p>
+                    </div>
+                    <button id="closebutton" onclick="closebutton()">Close</button>
+                </div>
+            </div>
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.philipshueplay.jpg" alt="Picture on philipshue light philipshueplay"
+                    onclick="philipshueplay()">
+                <h3 onclick="philipshueplay()">Philips hue play</h3>
+                <p>149 $</p>
+                <form action="./../webbshop/adress.eng.html">
+                    <button>Buy now</button>
+                </form>
+            </div>
+
+            <div id="overlayphilipshueplay">
+                <div id="informationphilipshueplay">
+                    <h3>Philips hue Play</h3>
+                    <img src="./../webbshop/webbshop.philipshueplay.jpg" alt="Picture on philips hue play"
+                        class="webbpopup">
+                    <div class="webbpopuptext">
+                        <p>Create an atmosphere with many colors and shades with the help of a 2-pack of Philips HUE
+                            Play light strips.
+                            Place your light bars behind your TV and get a cool ambilight or place the lighting on
+                            other places to create cool effects in your home. With the Philips Hue bridge and it
+                            the downloadable free app you control your lighting. Via the app you can experiment and mix
+                            else choose between 16 million different colors and switch the lighting on or off.
+                        </p>
+
+                    </div>
+                    <button id="closebutton" onclick="closebuttonphilipshueplay()">Close</button>
+                </div>
+            </div>
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.philipshueoutdoor.jpg"
+                    alt="Picture on philips hue outdoor" onclick="philipshueoutdoor()">
+                <h3 onclick="philipshueoutdoor()">Philips hue outdoor</h3>
+                <p>55 $</p>
+                <form action="./../webbshop/adress.eng.html">
+                    <button>Buy now</button>
+                </form>
+            </div>
+
+            <div id="overlayphilipshueoutdoor">
+                <div id="informationphilipshueoutdoor">
+                    <h3>Philips hue outdoor</h3>
+                    <img src="./../webbshop/webbshop.philipshueoutdoor.jpg"
+                        alt="Picture on philips hue outdoor" class="webbpopup">
+                    <div class="webbpopuptext">
+                        <p>The Philips Hue Outdoor Sensor is a motion sensor for outdoor use that you connect to your
+                            Philips Hue system. The sensor is IP54 rated, which means that it can withstand all
+                            weather conditions.
+                            Connect the sensor to your Philips Hue bridge and you can let the sensor control your outdoor lights
+                            automatically.
+                        </p>
+                    </div>
+                    <button id="closebutton" onclick="closebuttonphilipshueoutdoor()">Close</button>
+                </div>
+            </div>
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.philipshueljusslinga.jpg" alt="Bild på philips ljusslinga."
+                    onclick="philipshueljusslinga()">
+                <h3 onclick="philipshueljusslinga()">Philips hue lightstrip</h3>
+                <p>149 $</p>
+                <form action="./../webbshop/adress.eng.html">
+                    <button>Buy now</button>
+                </form>
+            </div>
+
+            <div id="overlayphilipshueljusslinga">
+                <div id="informationphilipshueljusslinga">
+                    <h3>Philips hue lightstrip</h3>
+                    <img src="./../webbshop/webbshop.philipshueljusslinga.jpg" alt="picture on philips hue lightstrip"
+                        class="webbpopup">
+                    <div class="webbpopuptext">
+                        <p>Philips Hue Lightstrip Outdoor is a flexible light strip for outdoor use, which can be bent and
+                            shaped according to your own wishes. Lightstrip Outdoor has a length of 2 meters and can be attached to
+                            pretty much anywhere, along the aisle, the wall, the balcony railing or wherever you want. With
+                            16 million colors and dimmer function is the ultimate to light up your garden when it
+                            starting to get dark.
+                        </p>
+
+                    </div>
+                    <button id="closebutton" onclick="closebuttonphilipshueljusslinga()">Close</button>
+                </div>
+            </div>
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.philipshuetaklampa.jpg" alt="Picture on philips hue ceiling lamp"
+                    onclick="philipshuetaklampa()">
+                <h3 onclick="philipshuetaklampa()">Philips hue ceiling lamp</h3>
+                <p>229 $</p>
+                <form action="./../webbshop/adress.eng.html">
+                    <button>Buy now</button>
+                </form>
+            </div>
+
+            <div id="overlayphilipshuetaklampa">
+                <div id="informationphilipshuetaklampa">
+                    <h3>Philips hue ceiling lamp</h3>
+                    <img src="./../webbshop/webbshop.philipshuetaklampa.jpg" alt="Picture on philips hue ceiling lamp"
+                        class="webbpopup">
+                    <div class="webbpopuptext">
+                        <p>With the Infuse ceiling lamp from Philips Hue, you can light up larger rooms and spaces. It fits
+                            perfect in, for example, the living room, but also in the dining room, or why not in the basement? Infuse
+                            provides a discreet glow towards the ceiling and a powerful lighting downwards that fills the room with a soft
+                            light in all shades of white or colored light. Philips Hue recommends purchasing for Hue
+                            Bridge to your smart lighting so you can experience the full range of Philips
+                            Hue features. With a Hue Bridge, you can add up to 50 smart light sources for control throughout
+                            the home.
+                        </p>
+
+                    </div>
+                    <button id="closebutton" onclick="closebuttonphilipshuetaklampa()">Close</button>
+                </div>
+            </div>
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.philipshuespotlight.jpg" alt="Picture of philips hue spotlight lampa"
+                    onclick="philipshuespotlight()">
+                <h3 onclick="philipshuespotlight()">Philips hue spotlight</h3>
+                <p>199 $</p>
+                <form action="./../webbshop/adress.eng.html">
+                    <button>Buy now</button>
+                </form>
+            </div>
+
+            <div id="overlayphilipshuespotlight">
+                <div id="informationphilipshuespotlight">
+                    <h3>Philips Hue spotligt</h3>
+                    <img src="./../webbshop/webbshop.philipshuespotlight.jpg"
+                        alt="Picture of philips hue spotlight taklampa" class="webbpopup">
+                    <div class="webbpopuptext">
+                        <p>Philips Hue White ambiance Runner in black has adjustable lights so you can use both
+                            hot and cold light. With three heads, you can decide for yourself where the light should be directed.
+                            Use built-in light modes for your daily routines and control the smart lights with
+                            the supplied dimmer switch or via Bluetooth.
+                        </p>
+
+                    </div>
+                    <button id="closebutton" onclick="closebuttonphilipshuespotlight()">Close</button>
+                </div>
+            </div>
+
+    
+        </div>
+    </div>
+
+</body>
+
+</html>

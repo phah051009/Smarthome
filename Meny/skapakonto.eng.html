@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="stylesheet" href="./../css/settings.css">
+    <script src="./../Main.js"></script>
+
+</head>
+
+<body> 
+    <nav>
+        <ul class="navbarlänkar">
+            <li><a href="./../meny/index.eng.html">Start</a></li>
+            <li><a href="./../meny/om.eng.html">About</a></li>
+            <li><a href="./../meny/blogg.eng.html">Blog</a></li>
+            <li><a href="./../webbshop/webbshop.eng.html">Webshop</a></li>
+            <li><a href="./../meny/kontakt.eng.html">Contact</a></li>
+            <li><a href="./../meny/login.eng.html">Sign in</a></li>
+            <li><a href="./../meny/inställningar.eng.html">Settings</a></li>
+        </ul>
+    </nav>
+
+    <img src="./../bilder/user.jpg" alt="" id="symbol" class="hidden">
+
+
+    <h1>Create account</h1>
+
+    <div class="flex-item-right">
+        <form action="" method="post">
+            <input type="text" placeholder="Name*" required>
+            
+            <input type="text" placeholder="E-mail*" required>
+
+            <input type="password" class="loginpage" id="myPassword" placeholder="Password" name="password" required>
+
+            <div onclick="showPassword()">
+                <input type="checkbox" onclick="showPassword()">Show Password</label>
+            </div>
+            <br>
+
+            <select id="Country" plceholder="Country*" required>
+                <option value="choose">Choose Country*</option>
+                <option value="choose">Afghanistan</option>
+                <option value="choose">Albania</option>
+                <option value="choose">Algeria</option>
+                <option value="choose">Andorra</option>
+                <option value="choose">Angola</option>
+                <option value="choose">Antigua and Barbuda</option>
+                <option value="choose">Argentina</option>
+                <option value="choose">Armenia</option>
+                <option value="choose">Aruba</option>
+                <option value="choose">Australia</option>
+                <option value="choose">Austria</option>
+                <option value="choose">Azerbaijan</option>
+                <option value="choose">Bahamas</option>
+                <option value="choose">Bahrain</option>
+                <option value="choose">Bangladesh</option>
+                <option value="choose">Barbados</option>
+                <option value="choose">Belarus</option>
+                <option value="choose">Belgium</option>
+                <option value="choose">Belize</option>
+                <option value="choose">Benin</option>
+                <option value="choose">Bhutan</option>
+                <option value="choose">Bolivia</option>
+                <option value="choose">Bosnia and Herzegovina</option>
+                <option value="choose">Botswana</option>
+                <option value="choose">Brazil</option>
+                <option value="choose">Brunei</option>
+                <option value="choose">Bulgaria</option>
+                <option value="choose">Burkina Faso</option>
+                <option value="choose">Burma</option>
+                <option value="choose">Burundi</option>¨
+                <option value="choose">Cambodia</option>
+                <option value="choose">Cameroon</option>
+                <option value="choose">Canada</option>
+                <option value="choose">Cabo verde</option>
+                <option value="choose">Central African Republic</option>
+                <option value="choose">Chad</option>
+                <option value="choose">Chile</option>
+                <option value="choose">China</option>
+                <option value="choose">Colombia</option>
+                <option value="choose">Comoros</option>
+                <option value="choose">Costa Rica</option>
+                <option value="choose">Croatia</option>
+                <option value="choose">Cuba</option>
+                <option value="choose">Curacao</option>
+                <option value="choose">Cyprus</option>
+                <option value="choose">Czechia</option>
+                <option value="choose">Denmark</option>
+                <option value="choose">Djibouti</option>
+                <option value="choose">Democratic Republic of Congo</option>
+                <option value="choose">Dominica</option>
+                <option value="choose">Dominican Republic</option>
+                <option value="choose">East Timor</option>
+                <option value="choose">Ecuador</option>
+                <option value="choose">Egypt</option>
+                <option value="choose">El Salvador</option>
+                <option value="choose">Equatorial Guinea</option>
+                <option value="choose">Eritrea</option>
+                <option value="choose">Estonia</option>
+                <option value="choose">Eswatini</option>
+                <option value="choose">Ethiopia</option>
+                <option value="choose">Fiji</option>
+                <option value="choose">Finland</option>
+                <option value="choose">France</option>
+                <option value="choose">Gabon</option>
+                <option value="choose">Gambia</option>
+                <option value="choose">Georgia</option>
+                <option value="choose">Germany</option>
+                <option value="choose">Ghana</option>
+                <option value="choose">Greece</option>
+                <option value="choose">Grenada</option>
+                <option value="choose">Guatemala</option>
+                <option value="choose">Guinea</option>
+                <option value="choose">Guinea-Bissau</option>
+                <option value="choose">Guyana</option>
+                <option value="choose">Haiti</option>
+                <option value="choose">Holy See</option>
+                <option value="choose">Honduras</option>
+                <option value="choose">Hong Kong</option>
+                <option value="choose">Hungary</option>
+                <option value="choose">Iceland</option>
+                <option value="choose">India</option>
+                <option value="choose">Indonesia</option>
+                <option value="choose">Iran</option>
+                <option value="choose">Iraq</option>
+                <option value="choose">Indonesia</option>
+                <option value="choose">Iran</option>
+                <option value="choose">Iraq</option>
+                <option value="choose">Ireland</option>
+                <option value="choose">Israel</option>
+                <option value="choose">Italy</option>
+                <option value="choose">Jamaica</option>
+                <option value="choose">Japan</option>
+                <option value="choose">Jordan</option>
+                <option value="choose">Kazakhstan</option>
+                <option value="choose">Kenya</option>
+                <option value="choose">Kiribati</option>
+                <option value="choose">Korea, North</option>
+                <option value="choose">Korea, South</option>
+                <option value="choose">Kosovo</option>
+                <option value="choose">Kuwait</option>
+                <option value="choose">Kyrgyzstan</option>
+                <option value="choose">Laos</option>
+                <option value="choose">Latvia</option>
+                <option value="choose">Lebanon</option>
+                <option value="choose">Lesotho</option>
+                <option value="choose">Liberia</option>
+                <option value="choose">Libya</option>
+                <option value="choose">Liechtenstein</option>
+                <option value="choose">Lithuania</option>
+                <option value="choose">Luxembourg</option>
+                <option value="choose">Macau</option>
+                <option value="choose">Macedonia</option>
+                <option value="choose">Madagascar</option>
+                <option value="choose">Malawi</option>
+                <option value="choose">Malaysia</option>
+                <option value="choose">Maldives</option>
+                <option value="choose">Mali</option>
+                <option value="choose">Malta</option>
+                <option value="choose">Marshall Islands</option>
+                <option value="choose">Mauritania</option>
+                <option value="choose">Mauritius</option>
+                <option value="choose">Mexico</option>
+                <option value="choose">Micronesia</option>
+                <option value="choose">Moldova</option>
+                <option value="choose">Monaco</option>
+                <option value="choose">Mongolia</option>
+                <option value="choose">Montenegro</option>
+                <option value="choose">Morocco</option>
+                <option value="choose">Mazambique</option>
+                <option value="choose">Namibia</option>
+                <option value="choose">Nauru</option>
+                <option value="choose">Nepal</option>
+                <option value="choose">Netherlands</option>
+                <option value="choose">New Zealand</option>
+                <option value="choose">Nicaragua</option>
+                <option value="choose">Niger</option>
+                <option value="choose">Nigeria</option>
+                <option value="choose">North Korea</option>
+                <option value="choose">Norway</option>
+                <option value="choose">Oman</option>
+                <option value="choose">Pakistan</option>
+                <option value="choose">Palau</option>
+                <option value="choose">Palestinan Territories</option>
+                <option value="choose">Panama</option>
+                <option value="choose">Papua New Guinea</option>
+                <option value="choose">Paraguy</option>
+                <option value="choose">Peru</option>
+                <option value="choose">Philippines</option>
+                <option value="choose">Poland</option>
+                <option value="choose">Portugal</option>
+                <option value="choose">Qatar</option>
+                <option value="choose">Republic of Congo</option>
+                <option value="choose">Romania</option>
+                <option value="choose">Russia</option>
+                <option value="choose">Rwanda</option>
+                <option value="choose">Saint Kitts and Nevis</option>
+                <option value="choose">Saint Lucia</option>
+                <option value="choose">Saint Vincent and the Grenadiens</option>
+                <option value="choose">Samoa</option>
+                <option value="choose">San Marino</option>
+                <option value="choose">Sao Tome and Principe</option>
+                <option value="choose">Saudi Arabia</option>
+                <option value="choose">Senegal</option>
+                <option value="choose">Serbia</option>
+                <option value="choose">Seychelles</option>
+                <option value="choose">Sierra Leone</option>
+                <option value="choose">Singapore</option>
+                <option value="choose">Sint Maarten</option>
+                <option value="choose">Slovakia</option>
+                <option value="choose">Slovenia</option>
+                <option value="choose">Solomon Islands</option>
+                <option value="choose">Somalia</option>
+                <option value="choose">South Africa</option>
+                <option value="choose">South Korea</option>
+                <option value="choose">South Sudan</option>
+                <option value="choose">Spain</option>
+                <option value="choose">Sri Lanka</option>
+                <option value="choose">Sudan</option>
+                <option value="choose">Suriname</option>
+                <option value="choose">Swaziland</option>
+                <option value="choose">Sweden</option>
+                <option value="choose">Switzerland</option>
+                <option value="choose">Syria</option>
+                <option value="choose">Taiwan</option>
+                <option value="choose">Tajikistan</option>
+                <option value="choose">Tanzania</option>
+                <option value="choose">Thailand</option>
+                <option value="choose">Timor-Leste</option>
+                <option value="choose">Togo</option>
+                <option value="choose">Tonga</option>
+                <option value="choose">Trinidad and Tobago</option>
+                <option value="choose">Tunisia</option>
+                <option value="choose">Turkey</option>
+                <option value="choose">Turkmenistan</option>
+                <option value="choose">Tuvalu</option>
+                <option value="choose">Uganda</option>
+                <option value="choose">Ukraine</option>
+                <option value="choose">United Arab Emirates</option>
+                <option value="choose">United Kingdom</option>
+                <option value="choose">Uruguay</option>
+                <option value="choose">Uzbekistan</option>
+                <option value="choose">Vanuatu</option>
+                <option value="choose">Venezuela</option>
+                <option value="choose">Vietnam</option>
+                <option value="choose">Yemen</option>
+                <option value="choose">Zambia</option>
+                <option value="choose">Zimbabwe</option>
+            </select>
+
+            <button type="sumbit" class="button">Create account</button>
+        </form>
+    </div>
+
+
+
+
+</body>
+
+</html>

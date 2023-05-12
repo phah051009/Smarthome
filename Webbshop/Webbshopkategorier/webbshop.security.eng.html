@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Webshop</title>
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="stylesheet" href="./../css/webbshop.css">
+    <link rel="stylesheet" href="./../css/settings.css">
+
+
+    <script src="./../Main.js"></script>
+    <script src="./../webbshop.js"></script>
+
+
+</head>
+
+<body>
+    <nav>
+        <ul class="navbar-länkar">
+            <li><a href="./../meny/index.eng.html">Start</a></li>
+            <li><a href="./../meny/om.eng.html">About</a></li>
+            <li><a href="./../meny/blogg.eng.html">Blog</a></li>
+            <li><a href="./../webbshop/webbshop.eng.html">Webshop</a></li>
+            <li><a href="./../meny/kontakt.eng.html">Contact</a></li>
+            <li><a href="./../meny/login.eng.html">Sign in</a></li>
+            <li><a href="./../meny/inställningar.eng.html">Settings</a></li>
+        </ul>
+    </nav>
+
+
+    <h1 class="starttext">Security</h1>
+    <div>
+        <div class="dropdown-menu">
+
+            <button class="menu-btn"><img src="./../webbshop/meny.png" alt=""></button>
+            <div class="menu-content">
+                <a class="links" href="./../webbshop/webbshopkategorier/webbshop.popular.eng.html">Popularly</a>
+                <a class="links" href="./../webbshop/webbshopkategorier/webbshop.light.eng.html">Lighting</a>
+                <a class="links" href="./../webbshop/webbshopkategorier/webbshop.speaker.eng.html">Speaker</a>
+                <a class="links" href="./../webbshop/webbshopkategorier/webbshop.security.eng.html">Security</a>
+                <a class="links" href="./../webbshop/webbshopkategorier/webbshop.outlet.eng.html">Sale</a>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <img src="./../bilder/user.jpg" alt="" id="symbol" class="hidden">
+
+    <div class="webbshopcontainer">
+
+        <div class="products">
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.imoucctv.jpg" alt="Picture on imou cameras"
+                    onclick="imoucctv()">
+                <h3 onclick="imoucctv()">Security system</h3>
+                <p>339 $</p>
+                <form action="./../webbshop/adress.eng.html">
+                    <button>Buy now</button>
+                </form>
+            </div>
+
+            <div id="overlayimoucctv">
+                <div id="informationimoucctv">
+                    <h3>Security system</h3>
+                    <img src="./../webbshop/webbshop.imoucctv.jpg" alt="Bild på imou övervakningskameror"
+                        class="webbpopup">
+                    <div class="webbpopuptext">
+                        <p>CCTV Kit 4-Cameras – Lite is a wireless security system about a base station and four cameras
+                            as films in 1080P FHD Video and is equipped with a 1TB hard drive. The cameras also have a
+                            built-in microphone that clearly captures sound during monitoring. The monitoring system is
+                            IP67 rated and works great in all types of weather. The cameras have a double antenna too
+                            WiFi connection and they pair automatically.
+                        </p>
+
+                    </div>
+                    <button id="closebutton" onclick="closebuttonimoucctv()">Close</button>
+                </div>
+            </div>
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.googlenest.jpg" alt="Bild på google nest övervakningskamera"
+                    onclick="googlenest()">
+                <h3 onclick="googlenest()">Google Nest</h3>
+                <p>179 $</p>
+                <form action="./../webbshop/adress.eng.html">
+                    <button>Buy now</button>
+                </form>
+            </div>
+
+            <div id="overlaygooglenest">
+                <div id="informationgooglenest">
+                    <h3>Google nest</h3>
+                    <img src="./../webbshop/webbshop.googlenest.jpg" alt="Picture on google nest camera"
+                        class="webbpopup">
+                    <div class="webbpopuptext">
+                        <p>Google Nest NQ is the new surveillance camera that is packed with all smart functions
+                            you may need. Image sensor of 1/2.8 inch and 2 megapixels gives you razor-sharp images in
+                            real time, built-in intelligence means that the camera can distinguish between known and unknown faces. The camera
+                            can also sort out irrelevant things such as a leaf blowing by, so you get
+                            only notifications when something important happens. If an outsider fingers your camera
+                            you will automatically be notified at the same time as the camera emits a loud sound signal.
+                            NQ also works great inside the house as a baby monitor or a watchful eye over yours
+                            pets.
+                        </p>
+
+                    </div>
+                    <button id="closebutton" onclick="closebuttongooglenest()">Close</button>
+                </div>
+            </div>
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.imourex.jpg" alt="Picture on imou rex camera"
+                    onclick="imourex()">
+                <h3 onclick="imourex()">Imou Rex</h3>
+                <p>59 $</p>
+                <form action="./../webbshop/adress.eng.html">
+                    <button>Buy now</button>
+                </form>
+            </div>
+
+            <div id="overlayimourex">
+                <div id="informationimourex">
+                    <h3>Imou Rex</h3>
+                    <img src="./../webbshop/webbshop.imourex.jpg" alt="Picture on Imou Rex camera"
+                        class="webbpopup">
+                    <div class="webbpopuptext">
+                        <p>ex 4MP from IMOU ensures that every corner of your home is monitored. With features like
+                            4MP QHD live monitoring, pan & tilt, Human Detection, Smart Tracking and built-in spotlight
+                            and siren, it helps you keep track of your home - even when you're not at home. Rex 4MP finds
+                            quickly human targets in the images and keeps unwelcome visitors away, while it also
+                            keeps you informed. The Rex 4MP from IMOU suits you who are looking for a fully loaded
+                            surveillance camera for fully fed monitoring simply!
+                        </p>
+
+                    </div>
+                    <button id="closebutton" onclick="closebuttonimourex()">Close</button>
+                </div>
+            </div>
+
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.arlopro.jpg" alt="Picture on 4 Arlo pro 5 cameras"
+                    onclick="arlopro()">
+                <h3 onclick="arlopro()">Arlo Pro 5</h3>
+                <p>899 $</p>
+                <form action="./../webbshop/adress.eng.html">
+                    <button>Buy now</button>
+                </form>
+            </div>
+
+            <div id="overlayarlopro">
+                <div id="informationarlopro">
+                    <h3>4-pack övervakningskamera med 2K & mörkerseende</h3>
+                    <img src="./../webbshop/webbshop.arlopro.jpg" alt="Picture on 4 Arlo pro 5 cameras"
+                        class="webbpopup">
+                    <div class="webbpopuptext">
+                        <p>The Arlo Pro 5 4-pack Spotlight Camera 2K is the ultimate solution for home security and your
+                            peace of mind With 2K resolution and advanced color night vision, these cameras provide clear images
+                            of your home and its surroundings, both day and night. They are equipped with built-in spotlights and
+                            one the siren that provides a strong deterrent effect against potential intruders. These cameras are
+                            wireless and weather resistant, making them ideal for both indoor and outdoor use. In addition
+                            have they a long battery life of up to 8 months, so you don't have to worry about constantly changing
+                            batteries. Protect your home 24/7 and customize your security with the help of Arlo
+                            The Secure app.
+                        </p>
+
+                    </div>
+                    <button id="closebutton" onclick="closebuttonarlopro()">Close</button>
+                </div>
+            </div>
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.imoucell.jpg" alt="Picture on imou cell 2"
+                    onclick="imoucell()">
+                <h3 onclick="imoucell()">Imou Cell 2</h3>
+                <p>89 $</p>
+                <form action="./../webbshop/adress.eng.html">
+                    <button>Buy now</button>
+                </form>
+            </div>
+
+            <div id="overlayimoucell">
+                <div id="informationimoucell">
+                    <h3>Imou cell 2</h3>
+                    <img src="./../webbshop/webbshop.imoucell.jpg" alt="Picture on imou cell 2"
+                        class="webbpopup">
+                    <div class="webbpopuptext">
+                        <p>With IMOU Cell 2, you get full control over the security of your home. This wireless 4 MP
+                            surveillance camera films in QHD resolution and has smart features such as
+                            two way communication, night vision, Wi-Fi connection and rechargeable battery that lasts up to 180 days
+                            on a charge. IMOU Cell 2 is a smart camera that can distinguish people from other objects
+                            which means fewer false alarms and notifications only if something really happens. The camera
+                            needs only 0.3 seconds to detect a person approaching your home and you get one notification immediately when this happens. Relax in your home while Cell 2 keeps tabs on the situation.
+                        </p>
+
+                    </div>
+                    <button id="closebutton" onclick="closebuttonimoucell()">Close</button>
+                </div>
+            </div>
+
+            <div class="produkt">
+                <img src="./../webbshop/webbshop.deltaco.jpg" alt="Picture on deltaco camera"
+                    onclick="deltaco()">
+                <h3 onclick="deltaco()">Deltaco SH-IPC06</h3>
+                <p>49 $</p>
+                <form action="./../webbshop/adress.eng.html">
+                    <button>Buy now</button>
+                </form>
+            </div>
+
+            <div id="overlaydeltaco">
+                <div id="informationdeltaco">
+                    <h3>Deltaco SH-IPC06</h3>
+                    <img src="./../webbshop/webbshop.deltaco.jpg" alt="Picture on deltaco camer"
+                        class="webbpopup" onclick="deltaco()">
+                    <div class="webbpopuptext">
+                        <p>Keep an eye on your home even when you're not there, with the SH-IPC06 surveillance camera from Deltaco.
+                            The SH-IPC06 detects motion and is equipped with IR night vision to always provide you
+                            the ability to instantly review streaming video from your house, day or night no matter where you are
+                            is. The Pan & Tilt function makes it possible to easily adjust the image laterally and vertically for one
+                            extended picture area and with two-way sound, you get not only picture but also the possibility to hear and
+                            talk with your visitors. The camera has a resolution of 1920 x 1080 (2MP) and a Micro-SD card slot
+                            for storage of recorded material.
+                        </p>
+
+                    </div>
+                    <button id="closebutton" onclick="closebuttondeltaco()">Close</button>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>

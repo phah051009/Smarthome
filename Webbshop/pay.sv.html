@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Betalning</title>
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="stylesheet" href="./../css/settings.css">
+    
+    <script src="./../Main.js"></script>
+    <script src="./../webbshop.js"></script>
+
+</head>
+
+<body>
+    <nav>
+        <ul class="navbar-länkar">
+            <li><a href="./../meny/index.sv.html">Start</a></li>
+            <li><a href="./../meny/om.sv.html">Om</a></li>
+            <li><a href="./../meny/blogg.sv.html">Blogg</a></li>
+            <li><a href="./../webbshop/webbshop.sv.html">Webbshop</a></li>
+            <li><a href="./../meny/kontakt.sv.html">Kontakt</a></li>
+            <li><a href="./../meny/login.sv.html">Logga in</a></li>
+            <li><a href="./../meny/inställningar.sv.html">inställningar</a></li>
+        </ul>
+    </nav>
+
+    <div class="adressform">
+        <form action="" method="get" onsubmit="event.preventDefault(); Getinfobox()">
+            <h3>Betalning</h3>
+            <label for="text">Namn på kortet</label>
+            <input type="text" id="text" placeholder="Namn på kortet" required>
+
+            <label for="email">Kortnummer:</label>
+            <input type="text" id="cardnumber" placeholder="Kortnummer" required>
+
+            <label for="text">Utgångsmånad</label>
+            <input type="text" id="month" maxlengt="9" placeholder="Utgångsmånad" required>
+
+            <label for="text">Utgångsår</label>
+            <input type="text" id="year" maxlength="4" placeholder="Utgångsår" required>
+
+            <label for="text">CVV</label>
+            <input type="text" id="cvv" maxlength="3" placeholder="CVV" required>
+
+            <input type="submit" value="Slutför köp" class="button">
+        </form>
+    </div> 
+
+    <div id="information">
+        <h3>Tack för ditt köp!</h3>
+        <p>Vi har mottagit din order och kommer att behandla den så fort som möjligt .</p>
+
+        <form action="./../meny/index.sv.html">
+            <button id="closebutton" onclick="closebutton()">Stäng</button>
+        </form>
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>

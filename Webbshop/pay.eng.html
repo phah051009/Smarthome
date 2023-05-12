@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="stylesheet" href="./../css/settings.css">
+    <script src="./../Main.js"></script>
+    <script src="./../webbshop.js"></script>
+
+</head>
+
+<body>
+    <nav>
+        <ul class="navbar-länkar">
+            <li><a href="./../meny/index.eng.html">Start</a></li>
+            <li><a href="./../meny/om.eng.html">About</a></li>
+            <li><a href="./../meny/blogg.eng.html">Blog</a></li>
+            <li><a href="./../webbshop/webbshop.eng.html">Webshop</a></li>
+            <li><a href="./../meny/kontakt.eng.html">Contact</a></li>
+            <li><a href="./../meny/login.eng.html">Sign in</a></li>
+            <li><a href="./../meny/inställningar.eng.html">Settings</a></li>
+        </ul>
+    </nav>
+
+    <div class="adressform">
+        <form action="" method="get" onsubmit="event.preventDefault(); Getinfobox()">
+            <h3>Payment</h3>
+            <label for="text">Name on the card</label>
+            <input type="text" id="text" placeholder="Name on the card" required>
+
+            <label for="email">Card number</label>
+            <input type="text" id="cardnumber" placeholder="Card number" required>
+
+            <label for="text">Expiration month</label>
+            <input type="text" id="month" maxlengt="9" placeholder="Expiration month" required>
+
+            <label for="text">Expiration year</label>
+            <input type="text" id="year" maxlength="4" placeholder="Expiration year" required>
+
+            <label for="text">CVV</label>
+            <input type="text" id="cvv" maxlength="3" placeholder="CVV" required>
+
+            <input type="submit" value="Complete purchase" class="button">
+        </form>
+    </div>
+
+    <div id="information">
+        <h3>Thank you for your purschase</h3>
+        <p>We have received your order and will process it as soon as possible.</p>
+
+        <form action="./../meny/index.eng.html">
+            <button id="closebutton" onclick="closebutton()">Close</button>
+        </form>
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>

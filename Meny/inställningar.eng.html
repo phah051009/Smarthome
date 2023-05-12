@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="stylesheet" href="./../css/settings.css">
+    <script src="./../Main.js"></script>
+
+<body>
+    <nav>
+        <ul class="navbar-länkar">
+            <li><a href="./../meny/index.eng.html">Start</a></li>
+            <li><a href="./../meny/om.eng.html">About</a></li>
+            <li><a href="./../meny/blogg.eng.html">Blog</a></li>
+            <li><a href="./../webbshop/webbshop.eng.html">Webshop</a></li>
+            <li><a href="./../meny/kontakt.eng.html">Contact</a></li>
+            <li><a href="./../meny/login.eng.html">Sign in</a></li>
+            <li><a href="./../meny/inställningar.eng.html">Settings</a></li>
+        </ul>
+    </nav>
+
+    <img src="./../bilder/user.jpg" alt="" id="symbol" class="hidden">
+
+    <h1>Settings</h1>
+
+    <button type="button" id="darkandlightmodesv" class="button" onclick="Toggle()">Darkmode</button>
+
+    <div onclick="Getinfoboxbackgroundcolor()">
+        <button type="button" class="button" onclick="Logout1()">Change backgroundcolor</button>
+    </div>
+
+    <div id="informationcolor">
+        <h3>Here you can choose which color you want as background:</h3>
+        <button id="pinkbutton" onclick="buttonpink()">Pink</button>
+        <button id="purplebutton" onclick="buttonpurple()">Purple</button>
+        <button id="greenbutton" onclick="buttongreen()">Green</button>
+        <button id="yellowbutton" onclick="buttonyellow()">Yellow</button>
+        <button id="greybutton" onclick="buttongrey()">Grey</button>
+        <button id="orangebutton" onclick="buttonorange()">Orange</button>
+        <button id="redbutton" onclick="buttonred()">Red</button>
+        <br>
+        <br>
+        <button id="closebutton" onclick="closebutton1()">Close</button>
+    </div>
+
+
+    <div onclick="Getinfoboxchangetext()">
+        <button type="button" class="button" onclick="Logout3()">Change font</button>
+    </div>
+
+    <div id="informationchangetext">
+        <h3>Here you can choose which font you want on the text:</h3>
+
+        <button id="arialbutton" onclick="buttonarialtext()">Arial</button>
+
+        <button id="verdanabutton" onclick="buttonverdanatext()">Verdana</button>
+
+        <button id="georgiabutton" onclick="buttongeorgiatext()">Georgia</button>
+
+
+
+
+        <br>
+        <br>
+        <button id="closebutton" onclick="closebutton3()">Close</button>
+    </div>
+
+
+
+    <div onclick="Getinfoboxtextcolor()">
+        <button type="button" class="button" onclick="Logout2()">Change textcolor</button>
+    </div>
+
+    <div id="informationcolortext">
+        <h3>Here you can choose which text color you want:</h3>
+
+        <button id="pinkbutton" onclick="buttonpinktext()">Pink text</button>
+        <button id="purplebutton" onclick="buttonpurpletext()">Purple text</button>
+        <button id="greenbutton" onclick="buttongreentext()">Green text</button>
+        <button id="yellowbutton" onclick="buttonyellowtext()">Yellow text</button>
+        <button id="greybutton" onclick="buttongreytext()">Grey text</button>
+        <button id="orangebutton" onclick="buttonorangetext()">Orange text</button>
+        <button id="redbutton" onclick="buttonredtext()">Red text</button>
+
+        <br>
+        <br>
+        <button id="closebutton" onclick="closebutton2()">Close</button>
+    </div>
+
+    <div onclick="Getinfobox()">
+        <button type="button" class="button" onclick="Logout()">Log out</button>
+    </div>
+
+    <div id="information">
+        <h3>You are now outlogged!</h3>
+        <h3>Hope to see you again soon!</h3>
+
+        <br>
+        <button id="closebutton" onclick="closebutton()">Close</button>
+    </div>
+
+    <form action="inställningar.sv.html">
+        <input type="submit" value="Change language" class="button">
+    </form>
+
+</body>
+</html>

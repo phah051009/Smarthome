@@ -1,0 +1,676 @@
+#informationdeltaco{
+    display:none;
+    position:fixed;
+    top:18%;
+    left: 25%;
+    width: 50%;
+    height: 70%;
+    background-color: rgb(181, 187, 187);
+    text-align: center;
+    box-shadow: 1px 2px 2px rgb(126, 125, 125), 0 0 25px rgb(126, 125, 125), 0 0 5px rgb(126, 125, 125);
+}
+#informationimoucell{
+    display:none;
+    position:fixed;
+    top:18%;
+    left: 25%;
+    width: 50%;
+    height: 70%;
+    background-color: rgb(181, 187, 187);
+    text-align: center;
+    box-shadow: 1px 2px 2px rgb(126, 125, 125), 0 0 25px rgb(126, 125, 125), 0 0 5px rgb(126, 125, 125);
+}
+#informationarlopro{
+    display:none;
+    position:fixed;
+    top:18%;
+    left: 25%;
+    width: 50%;
+    height: 70%;
+    background-color: rgb(181, 187, 187);
+    text-align: center;
+    box-shadow: 1px 2px 2px rgb(126, 125, 125), 0 0 25px rgb(126, 125, 125), 0 0 5px rgb(126, 125, 125);
+}
+#informationphilipshueljusslinga{
+    display:none;
+    position:fixed;
+    top:18%;
+    left: 25%;
+    width: 50%;
+    height: 70%;
+    background-color: rgb(181, 187, 187);
+    text-align: center;
+    box-shadow: 1px 2px 2px rgb(126, 125, 125), 0 0 25px rgb(126, 125, 125), 0 0 5px rgb(126, 125, 125);
+}
+#informationphilipshuetaklampa{
+    display:none;
+    position:fixed;
+    top:18%;
+    left: 25%;
+    width: 50%;
+    height: 70%;
+    background-color: rgb(181, 187, 187);
+    text-align: center;
+    box-shadow: 1px 2px 2px rgb(126, 125, 125), 0 0 25px rgb(126, 125, 125), 0 0 5px rgb(126, 125, 125);
+}
+#informationphilipshuespotlight{
+    display:none;
+    position:fixed;
+    top:18%;
+    left: 25%;
+    width: 50%;
+    height: 70%;
+    background-color: rgb(181, 187, 187);
+    text-align: center;
+    box-shadow: 1px 2px 2px rgb(126, 125, 125), 0 0 25px rgb(126, 125, 125), 0 0 5px rgb(126, 125, 125);
+}
+#informationimoucctv{
+    display:none;
+    position:fixed;
+    top:18%;
+    left: 25%;
+    width: 50%;
+    height: 70%;
+    background-color: rgb(181, 187, 187);
+    text-align: center;
+    box-shadow: 1px 2px 2px rgb(126, 125, 125), 0 0 25px rgb(126, 125, 125), 0 0 5px rgb(126, 125, 125);
+}
+  #informationgooglenest{
+      display:none;
+      position:fixed;
+      top:18%;
+      left: 25%;
+      width: 50%;
+      height: 70%;
+      background-color: rgb(181, 187, 187);
+      text-align: center;
+      box-shadow: 1px 2px 2px rgb(126, 125, 125), 0 0 25px rgb(126, 125, 125), 0 0 5px rgb(126, 125, 125);
+    }
+#informationimourex{
+    display:none;
+    position:fixed;
+    top:18%;
+    left: 25%;
+    width: 50%;
+    height: 70%;
+    background-color: rgb(181, 187, 187);
+    text-align: center;
+    box-shadow: 1px 2px 2px rgb(126, 125, 125), 0 0 25px rgb(126, 125, 125), 0 0 5px rgb(126, 125, 125);
+}
+#informationphilipshueplay{
+    display:none;
+    position:fixed;
+    top:18%;
+    left: 25%;
+    width: 50%;
+    height: 70%;
+    background-color: rgb(181, 187, 187);
+    text-align: center;
+    box-shadow: 1px 2px 2px rgb(126, 125, 125), 0 0 25px rgb(126, 125, 125), 0 0 5px rgb(126, 125, 125);
+}
+#informationphilipshueoutdoor{
+    display:none;
+    position:fixed;
+    top:18%;
+    left: 25%;
+    width: 50%;
+    height: 70%;
+    background-color: rgb(181, 187, 187);
+    text-align: center;
+    box-shadow: 1px 2px 2px rgb(126, 125, 125), 0 0 25px rgb(126, 125, 125), 0 0 5px rgb(126, 125, 125);
+}
+.webbpopup{
+    justify-content: center;
+    text-align: center;  
+}
+.webbpopup {
+    height: 125px;
+    width: 125px;
+}
+.webbpopuptext p{
+    font-size: 15px;
+}
+/*Jag använder p taggen när jag skriver priset i webbshoppen och här så gör jag texten mindre och ändrar till lite ljusare grå*/
+.produkt p{
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+}
+  /*Ger knappen samma styling och tema som alla andra knappar på hemsidan har*/
+.produkt button{
+    padding: 5px 10px;
+    background-color: #1e56a0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  /*När man håller muspekaren över knappen så ska knappen få en mörkare färg.*/
+  .produkt button:hover,
+  .produkt button:focus{
+    background-color: #163172;
+}
+/*Styling för produkternas bilder*/
+.produkt img{
+  height: 100px;
+  width: 100px;
+}
+/*Styling för produkterna i webbshoppens rubrik*/
+.produkt h3{
+  margin:0;
+  font-size: 18px;
+  font-weight: normal;
+}
+/*Här så bestämmer jag placeringen mellan alla produkter*/
+.produkt{
+    float: left;
+    margin: auto;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+    justify-content: center;
+}
+/*Styling för alla webshoppens produkter att dem ska centreras och liknande*/
+.webbshopcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Dropdown  meny till alla kategorier*/
+.menu-btn {
+    background-color: #1e56a0;
+    color: white;
+    border: none; /*Gör att man inte ser ramen som är runt knappen*/
+    border-radius:6px; /*Skapar rundade hörn*/
+    width: 36px;
+    height: 30px;
+    justify-content: center;
+ }
+ 
+ /*Gör så att sakerna hamnar så centrerat som möjligt*/
+ .dropdown-menu {
+    position: relative; /*Gör så att positioneringen blir relativ*/
+    display: inline-block; /* Använder det så att html elementet visas som ett block men beter sig som ett inline element, så att vi kan placera andra element brevid det*/
+ }
+ .menu-content {
+    display: none; /*Gömmer menyn tills vi tar muspekaren på den*/
+    position: absolute; /*Ger elementen bättre positionering*/
+    background-color: rgb(126, 125, 125); 
+ }
+ .links {
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+    font-weight: bold; /*Gör texten fetare*/
+    border-bottom: 1.4px solid black;
+ }
+ /*Färgen som kommer upp när vi håller muspekaren över de val som finns*/
+ .links:hover {
+    background-color: rgba(57, 58, 58, 0.384);
+ }
+ 
+ .dropdown-menu:hover .menu-content {
+    display: block; /* Elementet blir ett blockelement vilket förhindrar att andra block placeras*/
+ }
+ .dropdown-menu:hover .menu-btn {
+    background-color: #163172;
+ }
+
+.starttext{
+    text-align: center;
+}
+
+.menu-btn img{
+    width: 24px;
+    height: 25px;
+}
+#informationsonosera300{
+    display:none;
+    position:fixed;
+    top:18%;
+    left: 25%;
+    width: 50%;
+    height: 70%;
+    background-color: rgb(181, 187, 187);
+    text-align: center;
+    box-shadow: 1px 2px 2px rgb(126, 125, 125), 0 0 25px rgb(126, 125, 125), 0 0 5px rgb(126, 125, 125);
+}
+#informationmarshall{
+    display:none;
+    position:fixed;
+    top:18%;
+    left: 25%;
+    width: 50%;
+    height: 70%;
+    background-color: rgb(181, 187, 187);
+    text-align: center;
+    box-shadow: 1px 2px 2px rgb(126, 125, 125), 0 0 25px rgb(126, 125, 125), 0 0 5px rgb(126, 125, 125);
+}
+#informationandersson{
+    display:none;
+    position:fixed;
+    top:18%;
+    left: 25%;
+    width: 50%;
+    height: 70%;
+    background-color: rgb(181, 187, 187);
+    text-align: center;
+    box-shadow: 1px 2px 2px rgb(126, 125, 125), 0 0 25px rgb(126, 125, 125), 0 0 5px rgb(126, 125, 125);
+}
+#informationharmankardon{
+    display:none;
+    position:fixed;
+    top:18%;
+    left: 25%;
+    width: 50%;
+    height: 70%;
+    background-color: rgb(181, 187, 187);
+    text-align: center;
+    box-shadow: 1px 2px 2px rgb(126, 125, 125), 0 0 25px rgb(126, 125, 125), 0 0 5px rgb(126, 125, 125);
+}
+#informationgooglenestmini{
+    display:none;
+    position:fixed;
+    top:18%;
+    left: 25%;
+    width: 50%;
+    height: 70%;
+    background-color: rgb(181, 187, 187);
+    text-align: center;
+    box-shadow: 1px 2px 2px rgb(126, 125, 125), 0 0 25px rgb(126, 125, 125), 0 0 5px rgb(126, 125, 125);
+}
+
+#informationphilips{
+    display:none;
+    position:fixed;
+    top:18%;
+    left: 25%;
+    width: 50%;
+    height: 70%;
+    background-color: rgb(181, 187, 187);
+    text-align: center;
+    box-shadow: 1px 2px 2px rgb(126, 125, 125), 0 0 25px rgb(126, 125, 125), 0 0 5px rgb(126, 125, 125);
+    z-index: 9999;
+}
+
+
+
+#overlayphilips {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    z-index: 9998;
+    display: none;
+}
+.popup-visible-philips #overlayphilips {
+    display: block;
+}
+.popup-visible-philips #informationphilips{
+    display: block;
+}
+
+
+
+#overlaygooglenestmini {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    z-index: 9998;
+    display: none;
+}
+.popup-visible-googlenestmini #overlaygooglenestmini {
+    display: block;
+}
+.popup-visible-googlenestmini #informationgooglenestmini{
+    display: block;
+}
+
+#overlayharmankardon{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    z-index: 9998;
+    display: none;
+}
+.popup-visible-harmankardon #overlayharmankardon {
+    display: block;
+}
+.popup-visible-harmankardon #informationharmankardon{
+    display: block;
+}
+
+#overlayandersson{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    z-index: 9998;
+    display: none;
+}
+.popup-visible-andersson #overlayandersson {
+    display: block;
+}
+.popup-visible-andersson #informationandersson{
+    display: block;
+}
+
+#overlaymarshall{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    z-index: 9998;
+    display: none;
+}
+.popup-visible-marshall #overlaymarshall {
+    display: block;
+}
+.popup-visible-marshall #informationmarshall{
+    display: block;
+}
+
+#overlaysonosera300{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    z-index: 9998;
+    display: none;
+}
+.popup-visible-sonosera300 #overlaysonosera300 {
+    display: block;
+}
+.popup-visible-sonosera300 #informationsonosera300{
+    display: block;
+}
+#overlayimoucctv{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    z-index: 9998;
+    display: none;
+}
+.popup-visible-imoucctv #overlayimoucctv {
+    display: block;
+}
+.popup-visible-imoucctv #informationimoucctv{
+    display: block;
+}
+
+#overlaygooglenest{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    z-index: 9998;
+    display: none;
+}
+.popup-visible-googlenest #overlaygooglenest {
+    display: block;
+}
+.popup-visible-googlenest #informationgooglenest{
+    display: block;
+}
+
+#overlayimourex{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    z-index: 9998;
+    display: none;
+}
+.popup-visible-imourex #overlayimourex {
+    display: block;
+}
+.popup-visible-imourex #informationimourex{
+    display: block;
+}
+
+#overlayarlopro{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    z-index: 9998;
+    display: none;
+}
+.popup-visible-arlopro #overlayarlopro {
+    display: block;
+}
+.popup-visible-arlopro #informationarlopro{
+    display: block;
+}
+
+#overlayimoucell{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    z-index: 9998;
+    display: none;
+}
+.popup-visible-imoucell #overlayimoucell {
+    display: block;
+}
+.popup-visible-imoucell #informationimoucell{
+    display: block;
+}
+
+#overlaydeltaco{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    z-index: 9998;
+    display: none;
+}
+.popup-visible-deltaco #overlaydeltaco {
+    display: block;
+}
+.popup-visible-deltaco #informationdeltaco{
+    display: block;
+}
+
+#overlayphilipshuespotlight{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    z-index: 9998;
+    display: none;
+}
+.popup-visible-philipshuespotlight #overlayphilipshuespotlight {
+    display: block;
+}
+.popup-visible-philipshuespotlight #informationphilipshuespotlight{
+    display: block;
+}
+
+#overlayphilipshuetaklampa{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    z-index: 9998;
+    display: none;
+}
+.popup-visible-philipshuetaklampa #overlayphilipshuetaklampa {
+    display: block;
+}
+.popup-visible-philipshuetaklampa #informationphilipshuetaklampa{
+    display: block;
+}
+
+#overlayphilipshueljusslinga{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    z-index: 9998;
+    display: none;
+}
+.popup-visible-philipshueljusslinga #overlayphilipshueljusslinga{
+    display: block;
+}
+.popup-visible-philipshueljusslinga #informationphilipshueljusslinga{
+    display: block;
+}
+
+#overlayphilipshueoutdoor{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    z-index: 9998;
+    display: none;
+}
+.popup-visible-philipshueoutdoor #overlayphilipshueoutdoor{
+    display: block;
+}
+.popup-visible-philipshueoutdoor #informationphilipshueoutdoor{
+    display: block;
+}
+
+#overlayphilipshueplay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    z-index: 9998;
+    display: none;
+}
+.popup-visible-philipshueplay #overlayphilipshueplay{
+    display: block;
+}
+.popup-visible-philipshueplay #informationphilipshueplay{
+    display: block;
+}
+
+
+#overlayphilipshue{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    z-index: 9998;
+    display: none;
+}
+.popup-visible-philipshue #overlayphilipshue{
+    display: block;
+}
+.popup-visible-philipshue #informationphilipshue{
+    display: block;
+}
+
+
+
+.saleprodukt p{
+    margin: 5px 0;
+    font-size: 14px;
+    color: red;
+
+}
+.saleprodukt p:hover{
+    transform: scale(1.3);  /*Priset blir större när man håller muspekaren över*/
+    text-shadow: 0 0 10px rgba(0,0,0.5); /*Styling på skuggorna bakom priset när man håller musen över*/
+}
+
+
+  /*Ger knappen samma styling och tema som alla andra knappar på hemsidan har*/
+.saleprodukt button{
+    padding: 5px 10px;
+    background-color: #1e56a0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  /*När man håller muspekaren över knappen så ska knappen få en mörkare färg.*/
+  .saleprodukt button:hover,
+  .saleprodukt button:focus{
+    background-color: #163172;
+}
+/*Styling för produkternas bilder*/
+.saleprodukt img{
+  height: 100px;
+  width: 100px;
+}
+/*Styling för produkterna i webbshoppens rubrik*/
+.saleprodukt h3{
+  margin:0;
+  font-size: 18px;
+  font-weight: normal;
+}
+/*Här så bestämmer jag placeringen mellan alla produkter*/
+.saleprodukt{
+    float: left;
+    margin: auto;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  

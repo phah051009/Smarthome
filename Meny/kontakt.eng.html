@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="stylesheet" href="./../css/settings.css">
+    <script src="./../Main.js"></script>
+
+</head>
+<body>
+    <nav>
+        <ul class="navbar-länkar">
+            <li><a href="./../meny/index.eng.html">Start</a></li>
+            <li><a href="./../meny/om.eng.html">About</a></li>
+            <li><a href="./../meny/blogg.eng.html">Blog</a></li>
+            <li><a href="./../webbshop/webbshop.eng.html">Webshop</a></li>
+            <li><a href="./../meny/kontakt.eng.html">Contact</a></li>
+            <li><a href="./../meny/login.eng.html">Sign in</a></li>
+            <li><a href="./../meny/inställningar.eng.html">Settings</a></li>
+        </ul>
+    </nav> 
+
+    <img src="./../bilder/user.jpg" alt="" id="symbol" class="hidden">
+
+    <h1>Contact</h1>
+
+    <h3>What are you waiting for? Get in touch!</h3>
+
+    <div class="contact">
+    <form action="" onsubmit="event.preventDefault(); Getinfobox()">
+        <input type="text" placeholder="Your name:">
+        <input type="email" placeholder="E-mail:" required>
+        <input type="text" pattern="[0-9+]+" placeholder="Phonenumber:"> 
+        <textarea name=""  cols="30" rows="10" placeholder="Message:"></textarea>
+
+        <button type="sumbit" class="button">Send message</button>
+    </form>
+</div>
+
+<div id="information">
+    <h3>Your message has been sent!</h3>
+    <p>We will reply to your message within 2 working days.</p>
+    <form action="./../meny/index.sv.html">
+        <button id="closebutton" onclick="closebutton()">Close</button>
+    </form>
+
+</div>
+
+
+    
+    
+
+
+</body>
+</html>
